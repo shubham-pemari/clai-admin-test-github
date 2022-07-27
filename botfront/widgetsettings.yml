@@ -1,0 +1,18 @@
+title: Clai
+subtitle: Happy to help
+inputTextFieldHint: Type your message...
+initPayload: /get_started
+closePayload: /close
+hideWhenNotConnected: true
+UserconvFont: 15
+AssistantconvFont: 15
+Widgetitlefont: 15
+WidgetSubtitlefont: 12
+tooltipFontSize: 15
+tooltipBorderSize: 0
+showFullScreenButton: true
+customData:
+  language: en
+mainColor: '#9d5f5f'
+widgetTitleColor: '#f8f5f5'
+conversationBackgroundColor: '#5fcbcd'

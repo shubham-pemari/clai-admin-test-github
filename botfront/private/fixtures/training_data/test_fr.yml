@@ -1,9 +1,0 @@
-stories:
-  - story: test farewells
-    steps:
-      - user: /chitchat.farewekk
-        intent: get_started
-      - action: utter_farewell
-    metadata:
-      group: stories01
-      language: fr

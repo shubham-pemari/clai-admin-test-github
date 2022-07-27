@@ -1,0 +1,76 @@
+{
+  "rasa_nlu_data": {
+    "common_examples": [
+      {
+        "text": "hi test",
+        "intent": "hitest",
+        "entities": [],
+        "metadata": {
+          "language": "en",
+          "canonical": true
+        }
+      },
+      {
+        "text": "likedislike",
+        "intent": "likedislike",
+        "entities": [],
+        "metadata": {
+          "language": "en",
+          "canonical": true
+        }
+      },
+      {
+        "text": "feedback",
+        "intent": "testing",
+        "entities": [],
+        "metadata": {
+          "language": "en"
+        }
+      },
+      {
+        "text": "starrating",
+        "intent": "testing",
+        "entities": [],
+        "metadata": {
+          "language": "en"
+        }
+      },
+      {
+        "text": "t",
+        "intent": "testing",
+        "entities": [],
+        "metadata": {
+          "language": "en"
+        }
+      },
+      {
+        "text": "te",
+        "intent": "testing",
+        "entities": [],
+        "metadata": {
+          "language": "en"
+        }
+      },
+      {
+        "text": "test",
+        "intent": "testing",
+        "entities": [],
+        "metadata": {
+          "language": "en"
+        }
+      },
+      {
+        "text": "testing",
+        "intent": "testing",
+        "entities": [],
+        "metadata": {
+          "language": "en",
+          "canonical": true
+        }
+      }
+    ],
+    "entity_synonyms": [],
+    "gazette": [],
+    "regex_features": []
+  }
+}

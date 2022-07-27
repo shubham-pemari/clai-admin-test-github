@@ -1,0 +1,10 @@
+name: Clai
+namespace: bf-clai
+defaultLanguage: en
+nluThreshold: 0.75
+timezoneOffset: 0
+allowContextualQuestions: false
+instance:
+  name: Default Instance
+  host: 'http://localhost:5006'
+  projectId: clai-defaultid

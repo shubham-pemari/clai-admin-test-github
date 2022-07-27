@@ -1,6 +1,0 @@
-name: my cool project
-defaultLanguage: en
-instance:
-  name: Default Instance
-  host: 'http://rasa-development:5005'
-  projectId: bf
