@@ -100,7 +100,8 @@ intents:
 responses:
   utter_-PPC3uh_P:
     - language: en
-      text: hitest hited
+      metadata: null
+      text: hitest hiteddd.
   utter_0dAnR1BBQ:
     - language: en
       quick_replies:
