@@ -101,7 +101,7 @@ responses:
   utter_-PPC3uh_P:
     - language: en
       metadata: null
-      text: shubham
+      text: hey there/
   utter_0dAnR1BBQ:
     - language: en
       quick_replies:
