@@ -128,7 +128,7 @@ responses:
       text: button message
   utter_CTBDQQlup:
     - language: en
-      text: commit coming
+      text: commit coming 1
   utter_D1WMvzyCk:
     - language: en
       text: test_star2 hited
