@@ -8,6 +8,7 @@ actions:
   - utter_0dAnR1BBQ
   - utter_3jAqaMYvH
   - utter_6dDgzBb0k
+  - utter_CTBDQQlup
   - utter_D1WMvzyCk
   - utter_FvDUfx3Dq
   - utter_IWPoK6IVS
@@ -94,6 +95,7 @@ intents:
   - hitest
   - smalltalk.bye
   - smalltalk.greet
+  - test6
   - test_star
   - test_star2
   - testing
@@ -124,6 +126,9 @@ responses:
           title: button title2
           type: postback
       text: button message
+  utter_CTBDQQlup:
+    - language: en
+      text: commit coming
   utter_D1WMvzyCk:
     - language: en
       text: test_star2 hited

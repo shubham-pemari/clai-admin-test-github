@@ -20,6 +20,15 @@
         }
       },
       {
+        "text": "test6",
+        "intent": "test6",
+        "entities": [],
+        "metadata": {
+          "language": "en",
+          "canonical": true
+        }
+      },
+      {
         "text": "feedback",
         "intent": "testing",
         "entities": [],
