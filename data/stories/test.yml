@@ -36,12 +36,4 @@ stories:
       - action: utter_3jAqaMYvH
     metadata:
       group: test
-  - story: test (6)
-    steps:
-      - intent: test6
-        user: test6
-        entities: []
-      - action: utter_CTBDQQlup
-    metadata:
-      group: test
 rules: []
