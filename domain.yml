@@ -102,7 +102,6 @@ intents:
 responses:
   utter_-PPC3uh_P:
     - language: en
-      metadata: null
       text: with new admin
   utter_0dAnR1BBQ:
     - language: en
@@ -128,7 +127,7 @@ responses:
       text: button message
   utter_CTBDQQlup:
     - language: en
-      text: commit coming 1
+      text: commit coming
   utter_D1WMvzyCk:
     - language: en
       text: test_star2 hited
@@ -155,7 +154,6 @@ responses:
       language: en
   utter_QndmCQw6W:
     - language: en
-      metadata: null
       starrating:
         - payload: /1
           payload_value: asdfghj
@@ -201,15 +199,12 @@ responses:
           payload_value: ''
           title: ''
           type: postback
-      metadata: null
       text: ''
   utter_ask_adf:
     - language: en
-      metadata: null
       text: ''
   utter_ask_appointment:
     - language: en
-      metadata: null
       text: appointment date?
   utter_ask_asdf:
     - language: en
@@ -237,15 +232,12 @@ responses:
       text: ''
   utter_ask_asdvfbh:
     - language: en
-      metadata: null
       text: ''
   utter_ask_ask1:
     - language: en
-      metadata: null
       text: ask1?
   utter_ask_ask2:
     - language: en
-      metadata: null
       text: ask2?
   utter_ask_button_slot:
     - buttons:
@@ -293,7 +285,6 @@ responses:
           title: 'no'
           type: postback
       language: en
-      metadata: null
       text: Are you ok?
   utter_ask_button_slots2:
     - buttons:
@@ -306,7 +297,6 @@ responses:
           title: 'no'
           type: postback
       language: en
-      metadata: null
       text: Are you feeling good?
   utter_ask_buttons_slot:
     - buttons:
@@ -319,7 +309,6 @@ responses:
           title: button title2
           type: postback
       language: en
-      metadata: null
       text: button message
   utter_ask_buttons_slots:
     - buttons:
@@ -345,7 +334,6 @@ responses:
                 title: dislike_title
           type: likedislike
       language: en
-      metadata: null
   utter_ask_likedislike:
     - custom:
         attachment:
@@ -358,7 +346,6 @@ responses:
                 title: dislike
           type: likedislike
       language: en
-      metadata: null
   utter_ask_likedislike_slot:
     - custom:
         attachment:
@@ -371,10 +358,8 @@ responses:
                 title: dislike
           type: likedislike
       language: en
-      metadata: null
   utter_ask_mac1:
     - language: en
-      metadata: null
       starrating:
         - payload: /feedback_1
           payload_value: ss
@@ -387,7 +372,6 @@ responses:
       text: how will you rate us
   utter_ask_mac2:
     - language: en
-      metadata: null
       starrating:
         - payload: /feedback_1
           payload_value: kk
@@ -400,7 +384,6 @@ responses:
       text: how will you rate our bot behaviour
   utter_ask_mmm:
     - language: en
-      metadata: null
       starrating:
         - payload: /feedback_1
           payload_value: formval1
@@ -426,11 +409,9 @@ responses:
           title: button title2
           type: postback
       language: en
-      metadata: null
       text: button message
   utter_ask_petient_name:
     - language: en
-      metadata: null
       quick_replies:
         - payload: /b1
           payload_value: abc
@@ -443,7 +424,6 @@ responses:
       text: qr message
   utter_ask_qqqq:
     - language: en
-      metadata: null
       starrating:
         - payload: /feedback_1
           payload_value: ''
@@ -456,7 +436,6 @@ responses:
       text: ''
   utter_ask_quick_reply_slot:
     - language: en
-      metadata: null
       quick_replies:
         - payload: /yup
           payload_value: yupp
@@ -469,7 +448,6 @@ responses:
       text: Are you travelling today?
   utter_ask_quick_reply_slot2:
     - language: en
-      metadata: null
       quick_replies:
         - payload: /yup
           payload_value: ''
@@ -493,7 +471,6 @@ responses:
       text: qr message
   utter_ask_quickreply_slot:
     - language: en
-      metadata: null
       quick_replies:
         - payload: /yup
           payload_value: yup value
@@ -506,7 +483,6 @@ responses:
       text: qr message
   utter_ask_rrrr:
     - language: en
-      metadata: null
       quick_replies:
         - payload: /user
           payload_value: qval
@@ -571,11 +547,9 @@ responses:
       text: qr message2
   utter_ask_text1:
     - language: en
-      metadata: null
       text: how are you?
   utter_ask_text2:
     - language: en
-      metadata: null
       text: what is ur name?
   utter_ask_tttt:
     - buttons:
@@ -591,15 +565,12 @@ responses:
       text: bt que
   utter_ask_tttttt:
     - language: en
-      metadata: null
       text: how are you?
   utter_ask_vvv:
     - language: en
-      metadata: null
       text: ''
   utter_ask_wqerh:
     - language: en
-      metadata: null
       starrating:
         - payload: /feedback_1
           payload_value: asdgfsd
@@ -620,7 +591,6 @@ responses:
       text: ''
   utter_get_started:
     - language: en
-      metadata: null
       text: Welcome to Clai...
   utter_hHPlX0V-K:
     - language: en
@@ -632,11 +602,9 @@ responses:
       text: ''
   utter_hi:
     - language: en
-      metadata: null
       text: 'hi, how can I help?'
   utter_jdakvA5bn:
     - language: en
-      metadata: null
       starrating:
         - payload: /tesst
           payload_value: asdf
@@ -761,87 +729,66 @@ responses:
       text: wr
   utter_valid_button_slot:
     - language: en
-      metadata: null
       text: filled
   utter_valid_button_slot2:
     - language: en
-      metadata: null
       text: filled
   utter_valid_button_slots:
     - language: en
-      metadata: null
       text: form filled
   utter_valid_button_slots2:
     - language: en
-      metadata: null
       text: filled
   utter_valid_buttons_slot:
     - language: en
-      metadata: null
       text: form filled
   utter_valid_buttons_slots:
     - language: en
-      metadata: null
       text: filled
   utter_valid_like_slot:
     - language: en
-      metadata: null
       text: form filled.
   utter_valid_likedislike:
     - language: en
-      metadata: null
       text: filled
   utter_valid_likedislike_slot:
     - language: en
-      metadata: null
       text: filled
   utter_valid_mac2:
     - language: en
-      metadata: null
       text: filled.
   utter_valid_mmm:
     - language: en
-      metadata: null
       text: form filled
   utter_valid_petient_name:
     - language: en
-      metadata: null
       text: validated slot
   utter_valid_quick_reply_slot:
     - language: en
-      metadata: null
       text: form is filled.
   utter_valid_quick_reply_slot2:
     - language: en
-      metadata: null
       text: filled
   utter_valid_quick_reply_slots:
     - language: en
-      metadata: null
       text: filled
   utter_valid_quickreply_slot:
     - language: en
-      metadata: null
       text: form filled
   utter_valid_slot11:
     - language: en
-      metadata: null
       text: filled
   utter_valid_slot_2:
     - language: en
-      metadata: null
       text: form filled
   utter_valid_text2:
     - language: en
-      metadata: null
       text: form filled
   utter_valid_tttt:
     - language: en
-      metadata: null
       text: filled
   utter_valid_tttttt:
     - language: en
-      metadata: null
       text: filled
   utter_vavmah9gq:
     - language: en
@@ -895,12 +842,10 @@ slots:
     initial_value: en
     type: unfeaturized
   firstname:
-    influence_conversation: false
     type: text
   food_item:
     type: text
   language:
-    influence_conversation: false
     type: text
   like_slot:
     type: text
@@ -949,7 +894,6 @@ slots:
   tttttt:
     type: text
   version:
-    influence_conversation: false
     type: text
   vvv:
     type: text
