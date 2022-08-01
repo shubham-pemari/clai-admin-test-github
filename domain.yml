@@ -172,7 +172,7 @@ responses:
           payload_value: ''
           title: star_5
           type: postback
-      text: test starrating
+      text: test starratinggg
   utter_XYdSLARuP:
     - language: en
       quick_replies:
