@@ -182,7 +182,7 @@ responses:
   utter_D3od5891QJ:
     - language: en
       metadata: null
-      text: old windows build
+      text: old windows build with old rasa
   utter_FvDUfx3Dq:
     - language: en
       text: ''
