@@ -17,7 +17,7 @@ intents:
 responses:
   utter_3SH5Z-Vy-:
     - language: en
-      text: docker is working fine.
+      text: docker is working fine again.
 session_config: {}
 slots:
   disambiguation_message:
