@@ -1,0 +1,26 @@
+stories:
+  - story: 1_story
+    steps:
+      - intent: buttonform
+        user: hi form
+        entities: []
+      - action: 1_form
+      - active_loop: 1_form
+      - active_loop: null
+    metadata:
+      group: test forms
+  - story: test forms (3)
+    steps:
+      - intent: button
+        entities: []
+      - action: utter_Xb9Qpxiwty
+    metadata:
+      group: test forms
+  - story: test forms (4)
+    steps:
+      - intent: button2
+        entities: []
+      - action: utter_D3od5891QJ
+    metadata:
+      group: test forms
+rules: []
