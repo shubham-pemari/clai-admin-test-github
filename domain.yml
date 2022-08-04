@@ -128,7 +128,7 @@ forms:
             type: from_text
         name: '111'
         utter_on_new_valid_slot: false
-    updatedAt: 1659591062782
+    updatedAt: 1659592531599
 intents:
   - buttonform
   - feedback_1
@@ -142,8 +142,7 @@ intents:
 responses:
   utter_-PPC3uh_P:
     - language: en
-      metadata: null
-      text: new commit 11
+      text: new commit
   utter_0dAnR1BBQ:
     - language: en
       quick_replies:
@@ -229,7 +228,6 @@ responses:
           title: '22'
           type: postback
       language: en
-      metadata: null
       text: hi
   utter_ask_SADFGHN:
     - language: en
@@ -697,12 +695,10 @@ slots:
     initial_value: en
     type: unfeaturized
   firstname:
-    influence_conversation: false
     type: text
   food_item:
     type: text
   language:
-    influence_conversation: false
     type: text
   like_slot:
     type: text
@@ -751,7 +747,6 @@ slots:
   tttttt:
     type: text
   version:
-    influence_conversation: false
     type: text
   vvv:
     type: text
