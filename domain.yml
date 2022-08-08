@@ -126,8 +126,8 @@ forms:
             not_intent: null
             type: from_text
         name: '1111'
-        utter_on_new_valid_slot: true
-    updatedAt: 1659695698114
+        utter_on_new_valid_slot: false
+    updatedAt: 1659942259187
 intents:
   - buttonzform
   - get_started
@@ -208,11 +208,9 @@ responses:
           title: '22'
           type: postback
       language: en
-      metadata: null
       text: hi
   utter_ask_1111:
     - language: en
-      metadata: null
       quick_replies:
         - payload: /yes_title
           payload_value: yesvalue
@@ -581,11 +579,9 @@ responses:
       text: filled
   utter_valid_1111:
     - language: en
-      metadata: null
       text: form filled.
   utter_valid_333:
     - language: en
-      metadata: null
       text: likedislike form filled.
   utter_valid_asdfsdf:
     - language: en
