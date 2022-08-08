@@ -5,6 +5,7 @@ actions:
   - action_botfront_mapping
   - action_clarity_default_slots
   - utter_0dAnR1BBQ
+  - utter_5fIVVDros
   - utter_6dDgzBb0k
   - utter_FvDUfx3Dq
   - utter_IWPoK6IVS
@@ -53,6 +54,7 @@ actions:
   - utter_ask_slot11
   - utter_ask_slot_1
   - utter_ask_slot_2
+  - utter_ask_test_feedback
   - utter_ask_text1
   - utter_ask_text2
   - utter_ask_tttt
@@ -66,6 +68,7 @@ actions:
   - utter_hi
   - utter_jdakvA5bn
   - utter_qKeA3q7xe
+  - utter_qSeoVS4Fb
   - utter_valid_111
   - utter_valid_1111
   - utter_valid_333
@@ -88,6 +91,7 @@ actions:
   - utter_valid_quickreply_slot
   - utter_valid_slot11
   - utter_valid_slot_2
+  - utter_valid_test_feedback
   - utter_valid_text2
   - utter_valid_tttt
   - utter_valid_tttttt
@@ -127,13 +131,50 @@ forms:
             type: from_text
         name: '1111'
         utter_on_new_valid_slot: false
-    updatedAt: 1659962337949
+    updatedAt: 1659978109810
+  testfeedback_form:
+    collect_in_clai: true
+    description: test feedback form
+    graph_elements:
+      edges:
+        - condition: null
+          id: e1-test_feedback
+          source: '1'
+          target: test_feedback
+          type: condition
+      nodes:
+        - id: '1'
+          position:
+            x: 200
+            'y': 200
+          type: start
+        - id: test_feedback
+          position:
+            x: 120
+            'y': 360
+          slotName: test_feedback
+          type: slot
+    groupName: test feedback
+    name: testfeedback_form
+    slots:
+      - filling:
+          - intent:
+              - like_intent
+              - dislike_intent
+            not_intent: []
+            type: from_text
+        name: test_feedback
+        utter_on_new_valid_slot: true
+    updatedAt: 1659980302353
 intents:
   - buttonzform
+  - dislike_intent
   - get_started
+  - like_intent
   - no_title
   - smalltalk.bye
   - smalltalk.greet
+  - test_feedback_form
   - yes_title
   - yesvalue
 responses:
@@ -145,6 +186,10 @@ responses:
           title: ''
           type: postback
       text: ''
+  utter_5fIVVDros:
+    - language: en
+      metadata: null
+      text: like intent hited
   utter_6dDgzBb0k:
     - language: en
       quick_replies:
@@ -211,6 +256,7 @@ responses:
       text: hi
   utter_ask_1111:
     - language: en
+      metadata: null
       quick_replies:
         - payload: /yes_title
           payload_value: yesvalue
@@ -519,6 +565,19 @@ responses:
           title: qr title4
           type: postback
       text: qr message2
+  utter_ask_test_feedback:
+    - language: en
+      likedislike:
+        - payload: /like_intent
+          payload_value: ''
+          title: like
+          type: postback
+        - payload: /dislike_intent
+          payload_value: ''
+          title: dislike
+          type: postback
+      metadata: null
+      text: testing feedback
   utter_ask_text1:
     - language: en
       text: how are you?
@@ -574,6 +633,10 @@ responses:
   utter_qKeA3q7xe:
     - language: en
       text: wr
+  utter_qSeoVS4Fb:
+    - language: en
+      metadata: null
+      text: dislike intent hited
   utter_valid_111:
     - language: en
       text: filled
@@ -640,6 +703,10 @@ responses:
   utter_valid_slot_2:
     - language: en
       text: form filled
+  utter_valid_test_feedback:
+    - language: en
+      metadata: null
+      text: form filled.
   utter_valid_text2:
     - language: en
       text: form filled
@@ -748,6 +815,8 @@ slots:
   slot_1:
     type: text
   slot_2:
+    type: text
+  test_feedback:
     type: text
   text1:
     type: text

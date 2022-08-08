@@ -1,0 +1,26 @@
+stories:
+  - story: test feedback (1)
+    steps:
+      - intent: test_feedback_form
+        user: test feedback form
+        entities: []
+      - action: testfeedback_form
+      - active_loop: testfeedback_form
+      - active_loop: null
+    metadata:
+      group: test feedback
+  - story: test feedback (3)
+    steps:
+      - intent: dislike_intent
+        entities: []
+      - action: utter_qSeoVS4Fb
+    metadata:
+      group: test feedback
+  - story: test feedback (4)
+    steps:
+      - intent: like_intent
+        entities: []
+      - action: utter_5fIVVDros
+    metadata:
+      group: test feedback
+rules: []

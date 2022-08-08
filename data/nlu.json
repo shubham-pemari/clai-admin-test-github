@@ -97,8 +97,7 @@
         "intent": "like_intent",
         "entities": [],
         "metadata": {
-          "language": "en",
-          "canonical": true
+          "language": "en"
         }
       },
       {
@@ -106,27 +105,12 @@
         "intent": "like_intent",
         "entities": [],
         "metadata": {
-          "language": "en"
+          "language": "en",
+          "canonical": true
         }
       },
       {
-        "text": "like value",
-        "intent": "like_intent",
-        "entities": [],
-        "metadata": {
-          "language": "en"
-        }
-      },
-      {
-        "text": "likeintent",
-        "intent": "like_intent",
-        "entities": [],
-        "metadata": {
-          "language": "en"
-        }
-      },
-      {
-        "text": "likevalue",
+        "text": "like_intent",
         "intent": "like_intent",
         "entities": [],
         "metadata": {
@@ -177,6 +161,15 @@
       {
         "text": "no title",
         "intent": "no_title",
+        "entities": [],
+        "metadata": {
+          "language": "en",
+          "canonical": true
+        }
+      },
+      {
+        "text": "test feedback form",
+        "intent": "test_feedback_form",
         "entities": [],
         "metadata": {
           "language": "en",
