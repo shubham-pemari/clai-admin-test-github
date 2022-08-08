@@ -127,7 +127,7 @@ forms:
             type: from_text
         name: '1111'
         utter_on_new_valid_slot: false
-    updatedAt: 1659955747865
+    updatedAt: 1659955776188
 intents:
   - buttonzform
   - get_started
@@ -220,7 +220,7 @@ responses:
           payload_value: ''
           title: no title
           type: postback
-      text: yes or noo
+      text: yes or no
   utter_ask_333:
     - language: en
       likedislike:
@@ -665,7 +665,21 @@ slots:
     type: text
   '333':
     type: text
+  SADFGHN:
+    type: text
+  adf:
+    type: text
   appointment:
+    type: text
+  asdf:
+    type: text
+  asdfasdfg:
+    type: text
+  asdfasdg:
+    type: text
+  asdfsdf:
+    type: text
+  asdvfbh:
     type: text
   ask1:
     type: text
