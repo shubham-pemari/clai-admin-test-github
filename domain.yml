@@ -127,7 +127,7 @@ forms:
             type: from_text
         name: '1111'
         utter_on_new_valid_slot: false
-    updatedAt: 1659953151006
+    updatedAt: 1659953221149
 intents:
   - buttonzform
   - get_started
@@ -177,8 +177,7 @@ responses:
       text: yesvalue hited
   utter_VTF9FHRLWa:
     - language: en
-      metadata: null
-      text: yes title hiteddd
+      text: yes title hited
   utter_XYdSLARuP:
     - language: en
       quick_replies:
@@ -212,7 +211,6 @@ responses:
       text: hi
   utter_ask_1111:
     - language: en
-      metadata: null
       quick_replies:
         - payload: /yes_title
           payload_value: yesvalue
