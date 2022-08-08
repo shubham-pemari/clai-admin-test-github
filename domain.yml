@@ -4,20 +4,19 @@ actions:
   - action_botfront_fallback
   - action_botfront_mapping
   - action_clarity_default_slots
-  - utter_-PPC3uh_P
   - utter_0dAnR1BBQ
-  - utter_3jAqaMYvH
   - utter_6dDgzBb0k
-  - utter_D1WMvzyCk
-  - utter_D3od5891QJ
   - utter_FvDUfx3Dq
   - utter_IWPoK6IVS
   - utter_OCE0hX0JE
-  - utter_QndmCQw6W
+  - utter_Olu_WoxyoG
+  - utter_VTF9FHRLWa
   - utter_XYdSLARuP
-  - utter_Xb9Qpxiwty
+  - utter_YcMJ0yWmxk
   - utter_aJ3NtWkVTx
   - utter_ask_111
+  - utter_ask_1111
+  - utter_ask_333
   - utter_ask_SADFGHN
   - utter_ask_adf
   - utter_ask_appointment
@@ -68,6 +67,8 @@ actions:
   - utter_jdakvA5bn
   - utter_qKeA3q7xe
   - utter_valid_111
+  - utter_valid_1111
+  - utter_valid_333
   - utter_valid_asdfsdf
   - utter_valid_button_slot
   - utter_valid_button_slot2
@@ -90,59 +91,52 @@ actions:
   - utter_valid_text2
   - utter_valid_tttt
   - utter_valid_tttttt
-  - utter_vavmah9gq
   - utter_zXFDAp4xR
 entities: []
 forms:
-  1_form:
+  buttonz_form:
     collect_in_clai: true
-    description: 1 form
+    description: buttonz form
     graph_elements:
       edges:
         - condition: null
-          id: e1-111
+          id: e1-1111
           source: '1'
-          target: '111'
+          target: '1111'
           type: condition
       nodes:
         - id: '1'
           position:
-            x: 120
-            'y': 80
+            x: 200
+            'y': 160
           type: start
-        - id: '111'
+        - id: '1111'
           position:
-            x: 40
-            'y': 220
-          slotName: '111'
+            x: 120
+            'y': 340
+          slotName: '1111'
           type: slot
-    groupName: test forms
-    name: 1_form
+    groupName: test
+    name: buttonz_form
     slots:
       - filling:
           - intent:
-              - button
-              - button2
-              - '111'
+              - yes_title
+              - no_title
             not_intent: null
             type: from_text
-        name: '111'
+        name: '1111'
         utter_on_new_valid_slot: false
-    updatedAt: 1659961875659
+    updatedAt: 1659962337949
 intents:
-  - buttonform
-  - feedback_1
+  - buttonzform
   - get_started
-  - hitest
+  - no_title
   - smalltalk.bye
   - smalltalk.greet
-  - test_star
-  - test_star2
-  - testing
+  - yes_title
+  - yesvalue
 responses:
-  utter_-PPC3uh_P:
-    - language: en
-      text: new commit 11
   utter_0dAnR1BBQ:
     - language: en
       quick_replies:
@@ -151,9 +145,6 @@ responses:
           title: ''
           type: postback
       text: ''
-  utter_3jAqaMYvH:
-    - language: en
-      text: feedback_1 hited
   utter_6dDgzBb0k:
     - language: en
       quick_replies:
@@ -165,20 +156,6 @@ responses:
           title: button title2
           type: postback
       text: button message
-  utter_D1WMvzyCk:
-    - language: en
-      metadata:
-        autoRedirect: false
-        forceClose: false
-        forceOpen: false
-        linkTarget: _blank
-        pageChangeCallbacks: null
-        pageEventCallbacks: null
-        userInput: show
-      text: test_star2 hited
-  utter_D3od5891QJ:
-    - language: en
-      text: old windows build with old rasa
   utter_FvDUfx3Dq:
     - language: en
       text: ''
@@ -195,9 +172,12 @@ responses:
         alt: ''
         url: ''
       language: en
-  utter_QndmCQw6W:
+  utter_Olu_WoxyoG:
     - language: en
-      text: test starratinggg
+      text: yesvalue hited
+  utter_VTF9FHRLWa:
+    - language: en
+      text: yes title hited
   utter_XYdSLARuP:
     - language: en
       quick_replies:
@@ -206,9 +186,9 @@ responses:
           title: ''
           type: postback
       text: ''
-  utter_Xb9Qpxiwty:
+  utter_YcMJ0yWmxk:
     - language: en
-      text: button1 hited
+      text: no title hited
   utter_aJ3NtWkVTx:
     - language: en
       quick_replies:
@@ -229,6 +209,30 @@ responses:
           type: postback
       language: en
       text: hi
+  utter_ask_1111:
+    - language: en
+      quick_replies:
+        - payload: /yes_title
+          payload_value: yesvalue
+          title: yes title
+          type: postback
+        - payload: /no_title
+          payload_value: ''
+          title: no title
+          type: postback
+      text: yes or no
+  utter_ask_333:
+    - language: en
+      likedislike:
+        - payload: /like_intent
+          payload_value: likevalue
+          title: like
+          type: postback
+        - payload: /dislike_intent
+          payload_value: ''
+          title: dislike
+          type: postback
+      text: like or dislike
   utter_ask_SADFGHN:
     - language: en
       text: ''
@@ -573,6 +577,12 @@ responses:
   utter_valid_111:
     - language: en
       text: filled
+  utter_valid_1111:
+    - language: en
+      text: form filled.
+  utter_valid_333:
+    - language: en
+      text: likedislike form filled.
   utter_valid_asdfsdf:
     - language: en
       text: filled
@@ -639,9 +649,6 @@ responses:
   utter_valid_tttttt:
     - language: en
       text: filled
-  utter_vavmah9gq:
-    - language: en
-      text: test_star hited
   utter_zXFDAp4xR:
     - language: en
       quick_replies:
@@ -653,6 +660,10 @@ responses:
 session_config: {}
 slots:
   '111':
+    type: text
+  '1111':
+    type: text
+  '333':
     type: text
   SADFGHN:
     type: text

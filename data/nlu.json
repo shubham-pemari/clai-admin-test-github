@@ -2,8 +2,65 @@
   "rasa_nlu_data": {
     "common_examples": [
       {
+        "text": "butto",
+        "intent": "buttonform",
+        "entities": [],
+        "metadata": {
+          "language": "en"
+        }
+      },
+      {
+        "text": "button",
+        "intent": "buttonform",
+        "entities": [],
+        "metadata": {
+          "language": "en"
+        }
+      },
+      {
+        "text": "buttonform",
+        "intent": "buttonform",
+        "entities": [],
+        "metadata": {
+          "language": "en",
+          "canonical": true
+        }
+      },
+      {
         "text": "button form",
-        "intent": "buttonform",
+        "intent": "buttonzform",
+        "entities": [],
+        "metadata": {
+          "language": "en"
+        }
+      },
+      {
+        "text": "button forms",
+        "intent": "buttonzform",
+        "entities": [],
+        "metadata": {
+          "language": "en"
+        }
+      },
+      {
+        "text": "buttonforms",
+        "intent": "buttonzform",
+        "entities": [],
+        "metadata": {
+          "language": "en"
+        }
+      },
+      {
+        "text": "buttonss",
+        "intent": "buttonzform",
+        "entities": [],
+        "metadata": {
+          "language": "en"
+        }
+      },
+      {
+        "text": "buttonz form",
+        "intent": "buttonzform",
         "entities": [],
         "metadata": {
           "language": "en",
@@ -11,24 +68,16 @@
         }
       },
       {
-        "text": "f",
-        "intent": "buttonform",
+        "text": "dislike",
+        "intent": "dislike_intent",
         "entities": [],
         "metadata": {
           "language": "en"
         }
       },
       {
-        "text": "form",
-        "intent": "buttonform",
-        "entities": [],
-        "metadata": {
-          "language": "en"
-        }
-      },
-      {
-        "text": "hi form",
-        "intent": "form",
+        "text": "dislike intent",
+        "intent": "dislike_intent",
         "entities": [],
         "metadata": {
           "language": "en",
@@ -36,8 +85,16 @@
         }
       },
       {
-        "text": "hi test",
-        "intent": "hitest",
+        "text": "dislikeintent",
+        "intent": "dislike_intent",
+        "entities": [],
+        "metadata": {
+          "language": "en"
+        }
+      },
+      {
+        "text": "like",
+        "intent": "like_intent",
         "entities": [],
         "metadata": {
           "language": "en",
@@ -45,8 +102,64 @@
         }
       },
       {
-        "text": "likedislike",
-        "intent": "likedislike",
+        "text": "like intent",
+        "intent": "like_intent",
+        "entities": [],
+        "metadata": {
+          "language": "en"
+        }
+      },
+      {
+        "text": "like value",
+        "intent": "like_intent",
+        "entities": [],
+        "metadata": {
+          "language": "en"
+        }
+      },
+      {
+        "text": "likeintent",
+        "intent": "like_intent",
+        "entities": [],
+        "metadata": {
+          "language": "en"
+        }
+      },
+      {
+        "text": "likevalue",
+        "intent": "like_intent",
+        "entities": [],
+        "metadata": {
+          "language": "en"
+        }
+      },
+      {
+        "text": "l",
+        "intent": "likeform",
+        "entities": [],
+        "metadata": {
+          "language": "en"
+        }
+      },
+      {
+        "text": "like form",
+        "intent": "likeform",
+        "entities": [],
+        "metadata": {
+          "language": "en"
+        }
+      },
+      {
+        "text": "likedislikeform",
+        "intent": "likeform",
+        "entities": [],
+        "metadata": {
+          "language": "en"
+        }
+      },
+      {
+        "text": "likeform",
+        "intent": "likeform",
         "entities": [],
         "metadata": {
           "language": "en",
@@ -54,48 +167,58 @@
         }
       },
       {
-        "text": "feedback",
-        "intent": "testing",
+        "text": "likeforms",
+        "intent": "likeform",
         "entities": [],
         "metadata": {
           "language": "en"
         }
       },
       {
-        "text": "starrating",
-        "intent": "testing",
+        "text": "no title",
+        "intent": "no_title",
+        "entities": [],
+        "metadata": {
+          "language": "en",
+          "canonical": true
+        }
+      },
+      {
+        "text": "yes title",
+        "intent": "yes_title",
+        "entities": [],
+        "metadata": {
+          "language": "en",
+          "canonical": true
+        }
+      },
+      {
+        "text": "yes value",
+        "intent": "yes_title",
         "entities": [],
         "metadata": {
           "language": "en"
         }
       },
       {
-        "text": "t",
-        "intent": "testing",
+        "text": "yestitle",
+        "intent": "yes_title",
         "entities": [],
         "metadata": {
           "language": "en"
         }
       },
       {
-        "text": "te",
-        "intent": "testing",
+        "text": "yesvalue",
+        "intent": "yes_title",
         "entities": [],
         "metadata": {
           "language": "en"
         }
       },
       {
-        "text": "test",
-        "intent": "testing",
-        "entities": [],
-        "metadata": {
-          "language": "en"
-        }
-      },
-      {
-        "text": "testing",
-        "intent": "testing",
+        "text": "yes",
+        "intent": "yesvalue",
         "entities": [],
         "metadata": {
           "language": "en",
