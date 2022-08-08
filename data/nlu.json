@@ -2,24 +2,8 @@
   "rasa_nlu_data": {
     "common_examples": [
       {
-        "text": "butto",
-        "intent": "buttonform",
-        "entities": [],
-        "metadata": {
-          "language": "en"
-        }
-      },
-      {
-        "text": "button",
-        "intent": "buttonform",
-        "entities": [],
-        "metadata": {
-          "language": "en"
-        }
-      },
-      {
-        "text": "buttonform",
-        "intent": "buttonform",
+        "text": "hi test",
+        "intent": "hitest",
         "entities": [],
         "metadata": {
           "language": "en",
@@ -27,40 +11,8 @@
         }
       },
       {
-        "text": "button form",
-        "intent": "buttonzform",
-        "entities": [],
-        "metadata": {
-          "language": "en"
-        }
-      },
-      {
-        "text": "button forms",
-        "intent": "buttonzform",
-        "entities": [],
-        "metadata": {
-          "language": "en"
-        }
-      },
-      {
-        "text": "buttonforms",
-        "intent": "buttonzform",
-        "entities": [],
-        "metadata": {
-          "language": "en"
-        }
-      },
-      {
-        "text": "buttonss",
-        "intent": "buttonzform",
-        "entities": [],
-        "metadata": {
-          "language": "en"
-        }
-      },
-      {
-        "text": "buttonz form",
-        "intent": "buttonzform",
+        "text": "likedislike",
+        "intent": "likedislike",
         "entities": [],
         "metadata": {
           "language": "en",
@@ -68,157 +20,48 @@
         }
       },
       {
-        "text": "dislike",
-        "intent": "dislike_intent",
+        "text": "feedback",
+        "intent": "testing",
         "entities": [],
         "metadata": {
           "language": "en"
         }
       },
       {
-        "text": "dislike intent",
-        "intent": "dislike_intent",
-        "entities": [],
-        "metadata": {
-          "language": "en",
-          "canonical": true
-        }
-      },
-      {
-        "text": "dislikeintent",
-        "intent": "dislike_intent",
+        "text": "starrating",
+        "intent": "testing",
         "entities": [],
         "metadata": {
           "language": "en"
         }
       },
       {
-        "text": "like",
-        "intent": "like_intent",
-        "entities": [],
-        "metadata": {
-          "language": "en",
-          "canonical": true
-        }
-      },
-      {
-        "text": "like intent",
-        "intent": "like_intent",
+        "text": "t",
+        "intent": "testing",
         "entities": [],
         "metadata": {
           "language": "en"
         }
       },
       {
-        "text": "like value",
-        "intent": "like_intent",
+        "text": "te",
+        "intent": "testing",
         "entities": [],
         "metadata": {
           "language": "en"
         }
       },
       {
-        "text": "likeintent",
-        "intent": "like_intent",
+        "text": "test",
+        "intent": "testing",
         "entities": [],
         "metadata": {
           "language": "en"
         }
       },
       {
-        "text": "likevalue",
-        "intent": "like_intent",
-        "entities": [],
-        "metadata": {
-          "language": "en"
-        }
-      },
-      {
-        "text": "l",
-        "intent": "likeform",
-        "entities": [],
-        "metadata": {
-          "language": "en"
-        }
-      },
-      {
-        "text": "like form",
-        "intent": "likeform",
-        "entities": [],
-        "metadata": {
-          "language": "en"
-        }
-      },
-      {
-        "text": "likedislikeform",
-        "intent": "likeform",
-        "entities": [],
-        "metadata": {
-          "language": "en"
-        }
-      },
-      {
-        "text": "likeform",
-        "intent": "likeform",
-        "entities": [],
-        "metadata": {
-          "language": "en",
-          "canonical": true
-        }
-      },
-      {
-        "text": "likeforms",
-        "intent": "likeform",
-        "entities": [],
-        "metadata": {
-          "language": "en"
-        }
-      },
-      {
-        "text": "no title",
-        "intent": "no_title",
-        "entities": [],
-        "metadata": {
-          "language": "en",
-          "canonical": true
-        }
-      },
-      {
-        "text": "yes title",
-        "intent": "yes_title",
-        "entities": [],
-        "metadata": {
-          "language": "en",
-          "canonical": true
-        }
-      },
-      {
-        "text": "yes value",
-        "intent": "yes_title",
-        "entities": [],
-        "metadata": {
-          "language": "en"
-        }
-      },
-      {
-        "text": "yestitle",
-        "intent": "yes_title",
-        "entities": [],
-        "metadata": {
-          "language": "en"
-        }
-      },
-      {
-        "text": "yesvalue",
-        "intent": "yes_title",
-        "entities": [],
-        "metadata": {
-          "language": "en"
-        }
-      },
-      {
-        "text": "yes",
-        "intent": "yesvalue",
+        "text": "testing",
+        "intent": "testing",
         "entities": [],
         "metadata": {
           "language": "en",
