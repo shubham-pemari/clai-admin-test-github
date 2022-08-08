@@ -9,18 +9,22 @@ actions:
   - utter_3jAqaMYvH
   - utter_6dDgzBb0k
   - utter_D1WMvzyCk
+  - utter_D3od5891QJ
   - utter_FvDUfx3Dq
   - utter_IWPoK6IVS
   - utter_OCE0hX0JE
   - utter_QndmCQw6W
   - utter_XYdSLARuP
+  - utter_Xb9Qpxiwty
   - utter_aJ3NtWkVTx
+  - utter_ask_111
   - utter_ask_SADFGHN
   - utter_ask_adf
   - utter_ask_appointment
   - utter_ask_asdf
   - utter_ask_asdfasdfg
   - utter_ask_asdfasdg
+  - utter_ask_asdfsdf
   - utter_ask_asdvfbh
   - utter_ask_ask1
   - utter_ask_ask2
@@ -63,6 +67,8 @@ actions:
   - utter_hi
   - utter_jdakvA5bn
   - utter_qKeA3q7xe
+  - utter_valid_111
+  - utter_valid_asdfsdf
   - utter_valid_button_slot
   - utter_valid_button_slot2
   - utter_valid_button_slots
@@ -87,8 +93,44 @@ actions:
   - utter_vavmah9gq
   - utter_zXFDAp4xR
 entities: []
-forms: {}
+forms:
+  1_form:
+    collect_in_clai: true
+    description: 1 form
+    graph_elements:
+      edges:
+        - condition: null
+          id: e1-111
+          source: '1'
+          target: '111'
+          type: condition
+      nodes:
+        - id: '1'
+          position:
+            x: 120
+            'y': 80
+          type: start
+        - id: '111'
+          position:
+            x: 40
+            'y': 220
+          slotName: '111'
+          type: slot
+    groupName: test forms
+    name: 1_form
+    slots:
+      - filling:
+          - intent:
+              - button
+              - button2
+              - '111'
+            not_intent: null
+            type: from_text
+        name: '111'
+        utter_on_new_valid_slot: false
+    updatedAt: 1659958105008
 intents:
+  - buttonform
   - feedback_1
   - get_started
   - hitest
@@ -100,7 +142,7 @@ intents:
 responses:
   utter_-PPC3uh_P:
     - language: en
-      text: hey there/
+      text: new commit 11
   utter_0dAnR1BBQ:
     - language: en
       quick_replies:
@@ -125,14 +167,20 @@ responses:
       text: button message
   utter_D1WMvzyCk:
     - language: en
+      metadata:
+        autoRedirect: false
+        forceClose: false
+        forceOpen: false
+        linkTarget: _blank
+        pageChangeCallbacks: null
+        pageEventCallbacks: null
+        userInput: show
       text: test_star2 hited
+  utter_D3od5891QJ:
+    - language: en
+      text: old windows build with old rasa
   utter_FvDUfx3Dq:
     - language: en
-      likedislike:
-        - payload: ''
-          payload_value: ''
-          title: ''
-          type: postback
       text: ''
   utter_IWPoK6IVS:
     - language: en
@@ -149,28 +197,7 @@ responses:
       language: en
   utter_QndmCQw6W:
     - language: en
-      starrating:
-        - payload: /1
-          payload_value: asdfghj
-          title: star_1
-          type: postback
-        - payload: /2
-          payload_value: ''
-          title: star_2
-          type: postback
-        - payload: /test_star2
-          payload_value: ''
-          title: star_3
-          type: postback
-        - payload: feedback_4
-          payload_value: val444
-          title: star_4
-          type: postback
-        - payload: feedback_5
-          payload_value: ''
-          title: star_5
-          type: postback
-      text: test starrating
+      text: test starratinggg
   utter_XYdSLARuP:
     - language: en
       quick_replies:
@@ -179,6 +206,9 @@ responses:
           title: ''
           type: postback
       text: ''
+  utter_Xb9Qpxiwty:
+    - language: en
+      text: button1 hited
   utter_aJ3NtWkVTx:
     - language: en
       quick_replies:
@@ -187,13 +217,20 @@ responses:
           title: ''
           type: postback
       text: ''
+  utter_ask_111:
+    - buttons:
+        - payload: /button
+          payload_value: ''
+          title: '11'
+          type: postback
+        - payload: /button2
+          payload_value: val2234567o
+          title: '22'
+          type: postback
+      language: en
+      text: hi
   utter_ask_SADFGHN:
     - language: en
-      likedislike:
-        - payload: /like_intent
-          payload_value: ''
-          title: ''
-          type: postback
       text: ''
   utter_ask_adf:
     - language: en
@@ -203,28 +240,16 @@ responses:
       text: appointment date?
   utter_ask_asdf:
     - language: en
-      starrating:
-        - payload: /feedback_1
-          payload_value: sdfs
-          title: star_1
-          type: postback
       text: ''
   utter_ask_asdfasdfg:
     - language: en
-      starrating:
-        - payload: ''
-          payload_value: ''
-          title: ''
-          type: postback
       text: awerh
   utter_ask_asdfasdg:
     - language: en
-      likedislike:
-        - payload: ''
-          payload_value: ''
-          title: ''
-          type: postback
       text: ''
+  utter_ask_asdfsdf:
+    - language: en
+      text: how are you?
   utter_ask_asdvfbh:
     - language: en
       text: ''
@@ -355,43 +380,12 @@ responses:
       language: en
   utter_ask_mac1:
     - language: en
-      starrating:
-        - payload: /feedback_1
-          payload_value: ss
-          title: star_1
-          type: postback
-        - payload: /feedback_2
-          payload_value: ss22
-          title: star_2
-          type: postback
       text: how will you rate us
   utter_ask_mac2:
     - language: en
-      starrating:
-        - payload: /feedback_1
-          payload_value: kk
-          title: star_1
-          type: postback
-        - payload: /feedback_2
-          payload_value: lll
-          title: star_2
-          type: postback
       text: how will you rate our bot behaviour
   utter_ask_mmm:
     - language: en
-      starrating:
-        - payload: /feedback_1
-          payload_value: formval1
-          title: star_1
-          type: postback
-        - payload: /feedback_2
-          payload_value: formval2
-          title: star_2
-          type: postback
-        - payload: /feedback_3
-          payload_value: formval3
-          title: star_3
-          type: postback
       text: give feedback for form
   utter_ask_petient_last_name:
     - buttons:
@@ -419,15 +413,6 @@ responses:
       text: qr message
   utter_ask_qqqq:
     - language: en
-      starrating:
-        - payload: /feedback_1
-          payload_value: ''
-          title: star_1
-          type: postback
-        - payload: /feedback_2
-          payload_value: ''
-          title: star_2
-          type: postback
       text: ''
   utter_ask_quick_reply_slot:
     - language: en
@@ -490,19 +475,9 @@ responses:
       text: qr que
   utter_ask_sdgsdf:
     - language: en
-      starrating:
-        - payload: ''
-          payload_value: ''
-          title: ''
-          type: postback
       text: ''
   utter_ask_sfgss:
     - language: en
-      starrating:
-        - payload: /starratingform
-          payload_value: '12345'
-          title: star_1
-          type: postback
       text: ''
   utter_ask_slot11:
     - language: en
@@ -566,15 +541,6 @@ responses:
       text: ''
   utter_ask_wqerh:
     - language: en
-      starrating:
-        - payload: /feedback_1
-          payload_value: asdgfsd
-          title: star_1
-          type: postback
-        - payload: /feedback_2
-          payload_value: ''
-          title: star_2
-          type: postback
       text: ''
   utter_atpITODPo:
     - language: en
@@ -600,128 +566,16 @@ responses:
       text: 'hi, how can I help?'
   utter_jdakvA5bn:
     - language: en
-      starrating:
-        - payload: /tesst
-          payload_value: asdf
-          title: sdfdf
-          type: postback
-        - payload: /feedback_1
-          payload_value: ''
-          title: star_1
-          type: postback
-        - payload: /feedback_2
-          payload_value: asfdas
-          title: star_2
-          type: postback
-        - payload: /feedback_2
-          payload_value: ''
-          title: star_2
-          type: postback
-        - payload: /feedback_3
-          payload_value: ''
-          title: star_3
-          type: postback
-        - payload: /feedback_4
-          payload_value: ''
-          title: star_4
-          type: postback
-        - payload: /feedback_5
-          payload_value: ''
-          title: star_5
-          type: postback
-        - payload: /feedback_6
-          payload_value: ''
-          title: star_6
-          type: postback
-        - payload: /feedback_7
-          payload_value: ''
-          title: star_7
-          type: postback
-        - payload: /feedback_8
-          payload_value: ''
-          title: star_8
-          type: postback
-        - payload: /feedback_9
-          payload_value: ''
-          title: star_9
-          type: postback
-        - payload: /feedback_10
-          payload_value: ''
-          title: star_10
-          type: postback
-        - payload: /feedback_11
-          payload_value: ''
-          title: star_11
-          type: postback
-        - payload: /feedback_12
-          payload_value: ''
-          title: star_12
-          type: postback
-        - payload: /feedback_13
-          payload_value: ''
-          title: star_13
-          type: postback
-        - payload: /feedback_14
-          payload_value: ''
-          title: star_14
-          type: postback
-        - payload: /feedback_15
-          payload_value: ''
-          title: star_15
-          type: postback
-        - payload: /feedback_16
-          payload_value: ''
-          title: star_16
-          type: postback
-        - payload: /feedback_17
-          payload_value: ''
-          title: star_17
-          type: postback
-        - payload: /feedback_18
-          payload_value: ''
-          title: star_18
-          type: postback
-        - payload: /feedback_19
-          payload_value: ''
-          title: star_19
-          type: postback
-        - payload: /feedback_20
-          payload_value: ''
-          title: star_20
-          type: postback
-        - payload: /feedback_21
-          payload_value: ''
-          title: star_21
-          type: postback
-        - payload: /feedback_22
-          payload_value: ''
-          title: star_22
-          type: postback
-        - payload: /feedback_23
-          payload_value: ''
-          title: star_23
-          type: postback
-        - payload: /feedback_24
-          payload_value: ''
-          title: star_24
-          type: postback
-        - payload: /feedback_25
-          payload_value: ''
-          title: star_25
-          type: postback
-        - payload: /feedback_26
-          payload_value: ''
-          title: star_26
-          type: postback
       text: kjhgfds
   utter_qKeA3q7xe:
     - language: en
-      likedislike:
-        - payload: ''
-          payload_value: ''
-          title: ''
-          type: postback
       text: wr
+  utter_valid_111:
+    - language: en
+      text: filled
+  utter_valid_asdfsdf:
+    - language: en
+      text: filled
   utter_valid_button_slot:
     - language: en
       text: filled
@@ -798,6 +652,8 @@ responses:
       text: ''
 session_config: {}
 slots:
+  '111':
+    type: text
   SADFGHN:
     type: text
   adf:
@@ -809,6 +665,8 @@ slots:
   asdfasdfg:
     type: text
   asdfasdg:
+    type: text
+  asdfsdf:
     type: text
   asdvfbh:
     type: text
@@ -837,12 +695,10 @@ slots:
     initial_value: en
     type: unfeaturized
   firstname:
-    influence_conversation: false
     type: text
   food_item:
     type: text
   language:
-    influence_conversation: false
     type: text
   like_slot:
     type: text
@@ -891,7 +747,6 @@ slots:
   tttttt:
     type: text
   version:
-    influence_conversation: false
     type: text
   vvv:
     type: text

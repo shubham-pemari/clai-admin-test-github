@@ -2,6 +2,40 @@
   "rasa_nlu_data": {
     "common_examples": [
       {
+        "text": "button form",
+        "intent": "buttonform",
+        "entities": [],
+        "metadata": {
+          "language": "en",
+          "canonical": true
+        }
+      },
+      {
+        "text": "f",
+        "intent": "buttonform",
+        "entities": [],
+        "metadata": {
+          "language": "en"
+        }
+      },
+      {
+        "text": "form",
+        "intent": "buttonform",
+        "entities": [],
+        "metadata": {
+          "language": "en"
+        }
+      },
+      {
+        "text": "hi form",
+        "intent": "form",
+        "entities": [],
+        "metadata": {
+          "language": "en",
+          "canonical": true
+        }
+      },
+      {
         "text": "hi test",
         "intent": "hitest",
         "entities": [],
