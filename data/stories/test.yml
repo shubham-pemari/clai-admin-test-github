@@ -1,0 +1,39 @@
+stories:
+  - story: tessssttt
+    steps:
+      - intent: hitest
+        user: hi test
+        entities: []
+      - action: utter_-PPC3uh_P
+    metadata:
+      group: test
+  - story: test (2)
+    steps:
+      - intent: testing
+        user: testing
+        entities: []
+      - action: utter_QndmCQw6W
+    metadata:
+      group: test
+  - story: test (3)
+    steps:
+      - intent: test_star
+        entities: []
+      - action: utter_vavmah9gq
+    metadata:
+      group: test
+  - story: test (4)
+    steps:
+      - intent: test_star2
+        entities: []
+      - action: utter_D1WMvzyCk
+    metadata:
+      group: test
+  - story: test (5)
+    steps:
+      - intent: feedback_1
+        entities: []
+      - action: utter_3jAqaMYvH
+    metadata:
+      group: test
+rules: []
