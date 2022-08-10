@@ -1,0 +1,17 @@
+stories:
+  - story: test 2 (1)
+    steps:
+      - intent: likeform
+        user: sdfghj
+        entities: []
+    metadata:
+      group: test 2
+  - story: test 2 (2)
+    steps:
+      - intent: no_title
+        user: hello
+        entities: []
+      - action: utter_lzxpYt59_
+    metadata:
+      group: test 2
+rules: []
