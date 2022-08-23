@@ -1,0 +1,20 @@
+stories:
+  - story: test starrating form (2)
+    steps:
+      - intent: starratingform
+        user: starrating form
+        entities: []
+      - action: teststarratingform_form
+      - active_loop: teststarratingform_form
+      - active_loop: null
+      - action: action_reset_form_slots
+    metadata:
+      group: test starrating form
+  - story: test starrating form (4)
+    steps:
+      - intent: star_value_1
+        user: star value 1
+        entities: []
+    metadata:
+      group: test starrating form
+rules: []

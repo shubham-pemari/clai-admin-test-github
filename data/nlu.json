@@ -27,8 +27,56 @@
         }
       },
       {
-        "text": "hi form",
-        "intent": "form",
+        "text": "dislike",
+        "intent": "dislike_intent",
+        "entities": [],
+        "metadata": {
+          "language": "en"
+        }
+      },
+      {
+        "text": "dislike intent",
+        "intent": "dislike_intent",
+        "entities": [],
+        "metadata": {
+          "language": "en"
+        }
+      },
+      {
+        "text": "dislike_intent",
+        "intent": "dislike_intent",
+        "entities": [],
+        "metadata": {
+          "language": "en"
+        }
+      },
+      {
+        "text": "feedback_1",
+        "intent": "feedback_1",
+        "entities": [],
+        "metadata": {
+          "language": "en"
+        }
+      },
+      {
+        "text": "feedback_2",
+        "intent": "feedback_2",
+        "entities": [],
+        "metadata": {
+          "language": "en"
+        }
+      },
+      {
+        "text": "feedback_3",
+        "intent": "feedback_3",
+        "entities": [],
+        "metadata": {
+          "language": "en"
+        }
+      },
+      {
+        "text": "hi img",
+        "intent": "img",
         "entities": [],
         "metadata": {
           "language": "en",
@@ -36,8 +84,32 @@
         }
       },
       {
-        "text": "hi test",
-        "intent": "hitest",
+        "text": "like",
+        "intent": "like_intent",
+        "entities": [],
+        "metadata": {
+          "language": "en"
+        }
+      },
+      {
+        "text": "like intent",
+        "intent": "like_intent",
+        "entities": [],
+        "metadata": {
+          "language": "en"
+        }
+      },
+      {
+        "text": "like_intent",
+        "intent": "like_intent",
+        "entities": [],
+        "metadata": {
+          "language": "en"
+        }
+      },
+      {
+        "text": "star value 1",
+        "intent": "star_value_1",
         "entities": [],
         "metadata": {
           "language": "en",
@@ -45,17 +117,24 @@
         }
       },
       {
-        "text": "likedislike",
-        "intent": "likedislike",
+        "text": "star value1",
+        "intent": "star_value_1",
         "entities": [],
         "metadata": {
-          "language": "en",
-          "canonical": true
+          "language": "en"
         }
       },
       {
-        "text": "feedback",
-        "intent": "testing",
+        "text": "star",
+        "intent": "starratingform",
+        "entities": [],
+        "metadata": {
+          "language": "en"
+        }
+      },
+      {
+        "text": "star rating form",
+        "intent": "starratingform",
         "entities": [],
         "metadata": {
           "language": "en"
@@ -63,39 +142,73 @@
       },
       {
         "text": "starrating",
-        "intent": "testing",
+        "intent": "starratingform",
         "entities": [],
         "metadata": {
           "language": "en"
         }
       },
       {
-        "text": "t",
-        "intent": "testing",
+        "text": "starrating form",
+        "intent": "starratingform",
+        "entities": [],
+        "metadata": {
+          "language": "en",
+          "canonical": true
+        }
+      },
+      {
+        "text": "starratingform",
+        "intent": "starratingform",
         "entities": [],
         "metadata": {
           "language": "en"
         }
       },
       {
-        "text": "te",
-        "intent": "testing",
+        "text": "stars",
+        "intent": "starratingform",
         "entities": [],
         "metadata": {
           "language": "en"
         }
       },
       {
-        "text": "test",
-        "intent": "testing",
+        "text": "feed",
+        "intent": "test_feedback",
         "entities": [],
         "metadata": {
           "language": "en"
         }
       },
       {
-        "text": "testing",
-        "intent": "testing",
+        "text": "feedback form",
+        "intent": "test_feedback",
+        "entities": [],
+        "metadata": {
+          "language": "en"
+        }
+      },
+      {
+        "text": "feedbackform",
+        "intent": "test_feedback",
+        "entities": [],
+        "metadata": {
+          "language": "en"
+        }
+      },
+      {
+        "text": "test feedback",
+        "intent": "test_feedback",
+        "entities": [],
+        "metadata": {
+          "language": "en",
+          "canonical": true
+        }
+      },
+      {
+        "text": "value1",
+        "intent": "value1",
         "entities": [],
         "metadata": {
           "language": "en",
