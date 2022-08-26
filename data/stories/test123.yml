@@ -1,0 +1,8 @@
+stories:
+  - story: test123 (1)
+    steps:
+      - intent: he
+        user: hey
+    metadata:
+      group: test123
+rules: []

@@ -165,10 +165,11 @@ forms:
             type: from_text
         name: test_feedback
         utter_on_new_valid_slot: false
-    updatedAt: 1661495388983
+    updatedAt: 1661513997265
 intents:
   - buttonzform
   - get_started
+  - he
   - no_title
   - smalltalk.bye
   - smalltalk.greet
