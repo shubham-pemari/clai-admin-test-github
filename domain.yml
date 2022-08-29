@@ -7,7 +7,6 @@ actions:
   - utter_0dAnR1BBQ
   - utter_5fIVVDros
   - utter_6dDgzBb0k
-  - utter_CZcDpkA_P
   - utter_FvDUfx3Dq
   - utter_IWPoK6IVS
   - utter_OCE0hX0JE
@@ -132,7 +131,7 @@ forms:
             type: from_text
         name: '1111'
         utter_on_new_valid_slot: false
-    updatedAt: 1661495388979
+    updatedAt: 1661778883142
   testfeedback_form:
     collect_in_clai: true
     description: test feedback form
@@ -166,7 +165,7 @@ forms:
             type: from_text
         name: test_feedback
         utter_on_new_valid_slot: false
-    updatedAt: 1661515727184
+    updatedAt: 1661778883155
 intents:
   - buttonzform
   - get_started
@@ -175,7 +174,6 @@ intents:
   - smalltalk.greet
   - test234
   - test_feedback_form
-  - testing
   - yes_title
   - yesvalue
 responses:
@@ -201,9 +199,6 @@ responses:
           title: button title2
           type: postback
       text: button message
-  utter_CZcDpkA_P:
-    - language: en
-      text: hey
   utter_FvDUfx3Dq:
     - language: en
       text: ''
