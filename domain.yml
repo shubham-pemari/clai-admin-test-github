@@ -175,6 +175,7 @@ intents:
   - smalltalk.greet
   - test234
   - test_feedback_form
+  - testing
   - yes_title
   - yesvalue
 responses:

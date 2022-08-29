@@ -195,6 +195,15 @@
         }
       },
       {
+        "text": "testing",
+        "intent": "testing",
+        "entities": [],
+        "metadata": {
+          "language": "en",
+          "canonical": true
+        }
+      },
+      {
         "text": "yes title",
         "intent": "yes_title",
         "entities": [],
