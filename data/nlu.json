@@ -2,69 +2,28 @@
   "rasa_nlu_data": {
     "common_examples": [
       {
-        "text": "butto",
-        "intent": "buttonform",
-        "entities": [],
-        "metadata": {
-          "language": "en"
-        }
-      },
-      {
-        "text": "button",
-        "intent": "buttonform",
-        "entities": [],
-        "metadata": {
-          "language": "en"
-        }
-      },
-      {
-        "text": "buttonform",
-        "intent": "buttonform",
-        "entities": [],
-        "metadata": {
-          "language": "en",
-          "canonical": true
-        }
-      },
-      {
         "text": "button form",
-        "intent": "buttonzform",
-        "entities": [],
-        "metadata": {
-          "language": "en"
-        }
-      },
-      {
-        "text": "button forms",
-        "intent": "buttonzform",
-        "entities": [],
-        "metadata": {
-          "language": "en"
-        }
-      },
-      {
-        "text": "buttonforms",
-        "intent": "buttonzform",
-        "entities": [],
-        "metadata": {
-          "language": "en"
-        }
-      },
-      {
-        "text": "buttonss",
-        "intent": "buttonzform",
-        "entities": [],
-        "metadata": {
-          "language": "en"
-        }
-      },
-      {
-        "text": "buttonz form",
-        "intent": "buttonzform",
+        "intent": "buttonform",
         "entities": [],
         "metadata": {
           "language": "en",
           "canonical": true
+        }
+      },
+      {
+        "text": "f",
+        "intent": "buttonform",
+        "entities": [],
+        "metadata": {
+          "language": "en"
+        }
+      },
+      {
+        "text": "form",
+        "intent": "buttonform",
+        "entities": [],
+        "metadata": {
+          "language": "en"
         }
       },
       {
@@ -72,7 +31,8 @@
         "intent": "dislike_intent",
         "entities": [],
         "metadata": {
-          "language": "en"
+          "language": "en",
+          "canonical": true
         }
       },
       {
@@ -80,12 +40,11 @@
         "intent": "dislike_intent",
         "entities": [],
         "metadata": {
-          "language": "en",
-          "canonical": true
+          "language": "en"
         }
       },
       {
-        "text": "dislikeintent",
+        "text": "dislike_intent",
         "intent": "dislike_intent",
         "entities": [],
         "metadata": {
@@ -93,8 +52,8 @@
         }
       },
       {
-        "text": "final test",
-        "intent": "final_test",
+        "text": "feedback_1",
+        "intent": "feedback_1",
         "entities": [],
         "metadata": {
           "language": "en",
@@ -102,8 +61,26 @@
         }
       },
       {
-        "text": "hey",
-        "intent": "he",
+        "text": "feedback_2",
+        "intent": "feedback_2",
+        "entities": [],
+        "metadata": {
+          "language": "en",
+          "canonical": true
+        }
+      },
+      {
+        "text": "feedback_3",
+        "intent": "feedback_3",
+        "entities": [],
+        "metadata": {
+          "language": "en",
+          "canonical": true
+        }
+      },
+      {
+        "text": "hi img",
+        "intent": "img",
         "entities": [],
         "metadata": {
           "language": "en",
@@ -115,7 +92,8 @@
         "intent": "like_intent",
         "entities": [],
         "metadata": {
-          "language": "en"
+          "language": "en",
+          "canonical": true
         }
       },
       {
@@ -123,8 +101,7 @@
         "intent": "like_intent",
         "entities": [],
         "metadata": {
-          "language": "en",
-          "canonical": true
+          "language": "en"
         }
       },
       {
@@ -136,32 +113,8 @@
         }
       },
       {
-        "text": "l",
-        "intent": "likeform",
-        "entities": [],
-        "metadata": {
-          "language": "en"
-        }
-      },
-      {
-        "text": "like form",
-        "intent": "likeform",
-        "entities": [],
-        "metadata": {
-          "language": "en"
-        }
-      },
-      {
-        "text": "likedislikeform",
-        "intent": "likeform",
-        "entities": [],
-        "metadata": {
-          "language": "en"
-        }
-      },
-      {
-        "text": "likeform",
-        "intent": "likeform",
+        "text": "star value 1",
+        "intent": "star_value_1",
         "entities": [],
         "metadata": {
           "language": "en",
@@ -169,16 +122,40 @@
         }
       },
       {
-        "text": "likeforms",
-        "intent": "likeform",
+        "text": "star value1",
+        "intent": "star_value_1",
         "entities": [],
         "metadata": {
           "language": "en"
         }
       },
       {
-        "text": "no title",
-        "intent": "no_title",
+        "text": "star",
+        "intent": "starratingform",
+        "entities": [],
+        "metadata": {
+          "language": "en"
+        }
+      },
+      {
+        "text": "star rating form",
+        "intent": "starratingform",
+        "entities": [],
+        "metadata": {
+          "language": "en"
+        }
+      },
+      {
+        "text": "starrating",
+        "intent": "starratingform",
+        "entities": [],
+        "metadata": {
+          "language": "en"
+        }
+      },
+      {
+        "text": "starrating form",
+        "intent": "starratingform",
         "entities": [],
         "metadata": {
           "language": "en",
@@ -186,8 +163,48 @@
         }
       },
       {
-        "text": "test234",
-        "intent": "test234",
+        "text": "starratingform",
+        "intent": "starratingform",
+        "entities": [],
+        "metadata": {
+          "language": "en"
+        }
+      },
+      {
+        "text": "stars",
+        "intent": "starratingform",
+        "entities": [],
+        "metadata": {
+          "language": "en"
+        }
+      },
+      {
+        "text": "feed",
+        "intent": "test_feedback",
+        "entities": [],
+        "metadata": {
+          "language": "en"
+        }
+      },
+      {
+        "text": "feedback form",
+        "intent": "test_feedback",
+        "entities": [],
+        "metadata": {
+          "language": "en"
+        }
+      },
+      {
+        "text": "feedbackform",
+        "intent": "test_feedback",
+        "entities": [],
+        "metadata": {
+          "language": "en"
+        }
+      },
+      {
+        "text": "test feedback",
+        "intent": "test_feedback",
         "entities": [],
         "metadata": {
           "language": "en",
@@ -195,50 +212,8 @@
         }
       },
       {
-        "text": "test feedback form",
-        "intent": "test_feedback_form",
-        "entities": [],
-        "metadata": {
-          "language": "en",
-          "canonical": true
-        }
-      },
-      {
-        "text": "yes title",
-        "intent": "yes_title",
-        "entities": [],
-        "metadata": {
-          "language": "en",
-          "canonical": true
-        }
-      },
-      {
-        "text": "yes value",
-        "intent": "yes_title",
-        "entities": [],
-        "metadata": {
-          "language": "en"
-        }
-      },
-      {
-        "text": "yestitle",
-        "intent": "yes_title",
-        "entities": [],
-        "metadata": {
-          "language": "en"
-        }
-      },
-      {
-        "text": "yesvalue",
-        "intent": "yes_title",
-        "entities": [],
-        "metadata": {
-          "language": "en"
-        }
-      },
-      {
-        "text": "yes",
-        "intent": "yesvalue",
+        "text": "value1",
+        "intent": "value1",
         "entities": [],
         "metadata": {
           "language": "en",

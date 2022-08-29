@@ -1,21 +1,35 @@
 stories:
-  - story: test feedback (1)
+  - story: test starrating form (2)
     steps:
-      - user: test feedback form
-        intent: test_feedback_form
-      - action: testfeedback_form
+      - user: starrating form
+        intent: starratingform
+      - action: teststarratingform_form
+      - action: action_reset_form_slots
     metadata:
-      group: test feedback
+      group: test starrating form
       language: en
-  - story: test feedback (3)
+  - story: test starrating form (4)
     steps:
-      - action: utter_qSeoVS4Fb
+      - user: star value 1
+        intent: star_value_1
     metadata:
-      group: test feedback
+      group: test starrating form
       language: en
-  - story: test feedback (4)
+  - story: test feedback form (2)
     steps:
-      - action: utter_5fIVVDros
+      - user: test feedback
+        intent: test_feedback
+      - action: testfeedbackform_form
     metadata:
-      group: test feedback
+      group: test feedback form
+      language: en
+  - story: test feedback form (4)
+    steps: []
+    metadata:
+      group: test feedback form
+      language: en
+  - story: test feedback form (4)
+    steps: []
+    metadata:
+      group: test feedback form
       language: en

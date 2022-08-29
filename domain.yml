@@ -4,21 +4,17 @@ actions:
   - action_botfront_fallback
   - action_botfront_mapping
   - action_clarity_default_slots
+  - action_reset_form_slots
+  - utter_-PPC3uh_P
   - utter_0dAnR1BBQ
-  - utter_5fIVVDros
   - utter_6dDgzBb0k
-  - utter_853HIbyOy
   - utter_FvDUfx3Dq
   - utter_IWPoK6IVS
+  - utter_KyZahjoAc
   - utter_OCE0hX0JE
-  - utter_Olu_WoxyoG
-  - utter_VTF9FHRLWa
   - utter_XYdSLARuP
-  - utter_YcMJ0yWmxk
   - utter_aJ3NtWkVTx
   - utter_ask_111
-  - utter_ask_1111
-  - utter_ask_333
   - utter_ask_SADFGHN
   - utter_ask_adf
   - utter_ask_appointment
@@ -56,6 +52,7 @@ actions:
   - utter_ask_slot_1
   - utter_ask_slot_2
   - utter_ask_test_feedback
+  - utter_ask_test_starrating
   - utter_ask_text1
   - utter_ask_text2
   - utter_ask_tttt
@@ -69,10 +66,7 @@ actions:
   - utter_hi
   - utter_jdakvA5bn
   - utter_qKeA3q7xe
-  - utter_qSeoVS4Fb
   - utter_valid_111
-  - utter_valid_1111
-  - utter_valid_333
   - utter_valid_asdfsdf
   - utter_valid_button_slot
   - utter_valid_button_slot2
@@ -93,47 +87,14 @@ actions:
   - utter_valid_slot11
   - utter_valid_slot_2
   - utter_valid_test_feedback
+  - utter_valid_test_starrating
   - utter_valid_text2
   - utter_valid_tttt
   - utter_valid_tttttt
   - utter_zXFDAp4xR
 entities: []
 forms:
-  buttonz_form:
-    collect_in_clai: true
-    description: buttonz form
-    graph_elements:
-      edges:
-        - condition: null
-          id: e1-1111
-          source: '1'
-          target: '1111'
-          type: condition
-      nodes:
-        - id: '1'
-          position:
-            x: 200
-            'y': 160
-          type: start
-        - id: '1111'
-          position:
-            x: 120
-            'y': 340
-          slotName: '1111'
-          type: slot
-    groupName: test
-    name: buttonz_form
-    slots:
-      - filling:
-          - intent:
-              - yes_title
-              - no_title
-            not_intent: null
-            type: from_text
-        name: '1111'
-        utter_on_new_valid_slot: false
-    updatedAt: 1661785925198
-  testfeedback_form:
+  testfeedbackform_form:
     collect_in_clai: true
     description: test feedback form
     graph_elements:
@@ -155,8 +116,8 @@ forms:
             'y': 360
           slotName: test_feedback
           type: slot
-    groupName: test feedback
-    name: testfeedback_form
+    groupName: test feedback form
+    name: testfeedbackform_form
     slots:
       - filling:
           - intent:
@@ -166,19 +127,56 @@ forms:
             type: from_text
         name: test_feedback
         utter_on_new_valid_slot: false
-    updatedAt: 1661786769438
+    updatedAt: 1661786841942
+  teststarratingform_form:
+    collect_in_clai: true
+    description: test starrating form
+    graph_elements:
+      edges:
+        - condition: null
+          id: e1-test_starrating
+          source: '1'
+          target: test_starrating
+          type: condition
+      nodes:
+        - id: '1'
+          position:
+            x: 180
+            'y': 140
+          type: start
+        - id: test_starrating
+          position:
+            x: 120
+            'y': 360
+          slotName: test_starrating
+          type: slot
+    groupName: test starrating form
+    name: teststarratingform_form
+    slots:
+      - filling:
+          - intent:
+              - feedback_1
+              - feedback_2
+              - feedback_3
+              - feedback_4
+            not_intent: null
+            type: from_text
+        name: test_starrating
+        utter_on_new_valid_slot: false
+    updatedAt: 1661786841952
 intents:
-  - buttonzform
-  - final_test
   - get_started
-  - no_title
+  - hitest
+  - img
   - smalltalk.bye
   - smalltalk.greet
-  - test234
-  - test_feedback_form
-  - yes_title
-  - yesvalue
+  - star_value_1
+  - starratingform
+  - test_feedback
 responses:
+  utter_-PPC3uh_P:
+    - language: en
+      text: new commit 11
   utter_0dAnR1BBQ:
     - language: en
       quick_replies:
@@ -187,9 +185,6 @@ responses:
           title: ''
           type: postback
       text: ''
-  utter_5fIVVDros:
-    - language: en
-      text: like intent hited
   utter_6dDgzBb0k:
     - language: en
       quick_replies:
@@ -201,9 +196,6 @@ responses:
           title: button title2
           type: postback
       text: button message
-  utter_853HIbyOy:
-    - language: en
-      text: final test done
   utter_FvDUfx3Dq:
     - language: en
       text: ''
@@ -215,17 +207,17 @@ responses:
           title: ''
           type: postback
       text: ''
+  utter_KyZahjoAc:
+    - image:
+        alt: mario
+        url: >-
+          https://purepng.com/public/uploads/large/purepng.com-mariomariofictional-charactervideo-gamefranchisenintendodesigner-1701528634653vywuz.png
+      language: en
   utter_OCE0hX0JE:
     - image:
         alt: ''
         url: ''
       language: en
-  utter_Olu_WoxyoG:
-    - language: en
-      text: yesvalue hited
-  utter_VTF9FHRLWa:
-    - language: en
-      text: yes title hited
   utter_XYdSLARuP:
     - language: en
       quick_replies:
@@ -234,9 +226,6 @@ responses:
           title: ''
           type: postback
       text: ''
-  utter_YcMJ0yWmxk:
-    - language: en
-      text: no title hited
   utter_aJ3NtWkVTx:
     - language: en
       quick_replies:
@@ -257,30 +246,6 @@ responses:
           type: postback
       language: en
       text: hi
-  utter_ask_1111:
-    - language: en
-      quick_replies:
-        - payload: /yes_title
-          payload_value: yesvalue
-          title: yes title
-          type: postback
-        - payload: /no_title
-          payload_value: ''
-          title: no title
-          type: postback
-      text: yes or no
-  utter_ask_333:
-    - language: en
-      likedislike:
-        - payload: /like_intent
-          payload_value: likevalue
-          title: like
-          type: postback
-        - payload: /dislike_intent
-          payload_value: ''
-          title: dislike
-          type: postback
-      text: like or dislike
   utter_ask_SADFGHN:
     - language: en
       text: ''
@@ -571,14 +536,34 @@ responses:
     - language: en
       likedislike:
         - payload: /like_intent
-          payload_value: ''
+          payload_value: value1
           title: like
           type: postback
         - payload: /dislike_intent
           payload_value: ''
           title: dislike
           type: postback
-      text: testing feedback
+      text: test feedback
+  utter_ask_test_starrating:
+    - language: en
+      starrating:
+        - payload: /feedback_1
+          payload_value: star value 1
+          title: star_1
+          type: postback
+        - payload: /feedback_2
+          payload_value: star value 2
+          title: star_2
+          type: postback
+        - payload: /feedback_3
+          payload_value: ''
+          title: star_3
+          type: postback
+        - payload: /feedback_4
+          payload_value: ''
+          title: star_4
+          type: postback
+      text: test starrating form
   utter_ask_text1:
     - language: en
       text: how are you?
@@ -634,18 +619,9 @@ responses:
   utter_qKeA3q7xe:
     - language: en
       text: wr
-  utter_qSeoVS4Fb:
-    - language: en
-      text: dislike intent hited
   utter_valid_111:
     - language: en
       text: filled
-  utter_valid_1111:
-    - language: en
-      text: form filled.
-  utter_valid_333:
-    - language: en
-      text: likedislike form filled.
   utter_valid_asdfsdf:
     - language: en
       text: filled
@@ -706,6 +682,9 @@ responses:
   utter_valid_test_feedback:
     - language: en
       text: form filled.
+  utter_valid_test_starrating:
+    - language: en
+      text: starrating form filled.
   utter_valid_text2:
     - language: en
       text: form filled
@@ -726,10 +705,6 @@ responses:
 session_config: {}
 slots:
   '111':
-    type: text
-  '1111':
-    type: text
-  '333':
     type: text
   SADFGHN:
     type: text
@@ -816,6 +791,8 @@ slots:
   slot_2:
     type: text
   test_feedback:
+    type: text
+  test_starrating:
     type: text
   text1:
     type: text
