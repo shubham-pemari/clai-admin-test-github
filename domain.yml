@@ -7,6 +7,7 @@ actions:
   - utter_0dAnR1BBQ
   - utter_5fIVVDros
   - utter_6dDgzBb0k
+  - utter_CZcDpkA_P
   - utter_FvDUfx3Dq
   - utter_IWPoK6IVS
   - utter_OCE0hX0JE
@@ -199,6 +200,9 @@ responses:
           title: button title2
           type: postback
       text: button message
+  utter_CZcDpkA_P:
+    - language: en
+      text: hey
   utter_FvDUfx3Dq:
     - language: en
       text: ''

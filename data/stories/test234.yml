@@ -3,6 +3,7 @@ stories:
     steps:
       - intent: test234
         user: test234
+      - action: utter_CZcDpkA_P
     metadata:
       group: test234
 rules: []
