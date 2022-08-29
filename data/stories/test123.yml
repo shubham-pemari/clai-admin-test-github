@@ -3,6 +3,7 @@ stories:
     steps:
       - intent: he
         user: hey
+      - action: utter__-itA2voG
     metadata:
       group: test123
 rules: []
