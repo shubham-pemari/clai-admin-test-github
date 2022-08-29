@@ -93,6 +93,15 @@
         }
       },
       {
+        "text": "final test",
+        "intent": "final_test",
+        "entities": [],
+        "metadata": {
+          "language": "en",
+          "canonical": true
+        }
+      },
+      {
         "text": "hey",
         "intent": "he",
         "entities": [],
@@ -170,6 +179,15 @@
       {
         "text": "no title",
         "intent": "no_title",
+        "entities": [],
+        "metadata": {
+          "language": "en",
+          "canonical": true
+        }
+      },
+      {
+        "text": "test234",
+        "intent": "test234",
         "entities": [],
         "metadata": {
           "language": "en",
