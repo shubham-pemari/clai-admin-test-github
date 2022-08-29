@@ -166,7 +166,7 @@ forms:
             type: from_text
         name: test_feedback
         utter_on_new_valid_slot: false
-    updatedAt: 1661785925203
+    updatedAt: 1661786769438
 intents:
   - buttonzform
   - final_test
