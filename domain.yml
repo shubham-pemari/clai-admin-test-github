@@ -7,6 +7,7 @@ actions:
   - utter_0dAnR1BBQ
   - utter_5fIVVDros
   - utter_6dDgzBb0k
+  - utter_853HIbyOy
   - utter_FvDUfx3Dq
   - utter_IWPoK6IVS
   - utter_OCE0hX0JE
@@ -168,6 +169,7 @@ forms:
     updatedAt: 1661779589847
 intents:
   - buttonzform
+  - final_test
   - get_started
   - no_title
   - smalltalk.bye
@@ -199,6 +201,9 @@ responses:
           title: button title2
           type: postback
       text: button message
+  utter_853HIbyOy:
+    - language: en
+      text: final test done
   utter_FvDUfx3Dq:
     - language: en
       text: ''

@@ -93,6 +93,15 @@
         }
       },
       {
+        "text": "final test",
+        "intent": "final_test",
+        "entities": [],
+        "metadata": {
+          "language": "en",
+          "canonical": true
+        }
+      },
+      {
         "text": "hey",
         "intent": "he",
         "entities": [],
