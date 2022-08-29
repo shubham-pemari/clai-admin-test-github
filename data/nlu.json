@@ -177,15 +177,6 @@
         }
       },
       {
-        "text": "test234",
-        "intent": "test234",
-        "entities": [],
-        "metadata": {
-          "language": "en",
-          "canonical": true
-        }
-      },
-      {
         "text": "test feedback form",
         "intent": "test_feedback_form",
         "entities": [],

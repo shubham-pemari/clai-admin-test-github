@@ -131,7 +131,7 @@ forms:
             type: from_text
         name: '1111'
         utter_on_new_valid_slot: false
-    updatedAt: 1661778883142
+    updatedAt: 1661779029585
   testfeedback_form:
     collect_in_clai: true
     description: test feedback form
@@ -165,14 +165,14 @@ forms:
             type: from_text
         name: test_feedback
         utter_on_new_valid_slot: false
-    updatedAt: 1661778887656
+    updatedAt: 1661779029588
 intents:
   - buttonzform
   - get_started
+  - he
   - no_title
   - smalltalk.bye
   - smalltalk.greet
-  - test234
   - test_feedback_form
   - yes_title
   - yesvalue
