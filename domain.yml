@@ -166,7 +166,7 @@ forms:
             type: from_text
         name: test_feedback
         utter_on_new_valid_slot: false
-    updatedAt: 1661838532951
+    updatedAt: 1661852540857
 intents:
   - buttonzform
   - final_test
@@ -176,7 +176,6 @@ intents:
   - smalltalk.greet
   - test234
   - test_feedback_form
-  - yes_title
   - yesvalue
 responses:
   utter_0dAnR1BBQ:
@@ -203,7 +202,8 @@ responses:
       text: button message
   utter_853HIbyOy:
     - language: en
-      text: this is test message
+      metadata: null
+      text: last msg is mario
   utter_FvDUfx3Dq:
     - language: en
       text: ''
