@@ -98,11 +98,86 @@ actions:
   - utter_valid_tttttt
   - utter_zXFDAp4xR
 entities: []
-forms: {}
+forms:
+  buttonz_form:
+    collect_in_clai: true
+    description: buttonz form
+    graph_elements:
+      edges:
+        - condition: null
+          id: e1-1111
+          source: '1'
+          target: '1111'
+          type: condition
+      nodes:
+        - id: '1'
+          position:
+            x: 200
+            'y': 160
+          type: start
+        - id: '1111'
+          position:
+            x: 120
+            'y': 340
+          slotName: '1111'
+          type: slot
+    groupName: test
+    name: buttonz_form
+    slots:
+      - filling:
+          - intent:
+              - yes_title
+              - no_title
+            not_intent: null
+            type: from_text
+        name: '1111'
+        utter_on_new_valid_slot: false
+    updatedAt: 1661838532957
+  testfeedback_form:
+    collect_in_clai: true
+    description: test feedback form
+    graph_elements:
+      edges:
+        - condition: null
+          id: e1-test_feedback
+          source: '1'
+          target: test_feedback
+          type: condition
+      nodes:
+        - id: '1'
+          position:
+            x: 200
+            'y': 200
+          type: start
+        - id: test_feedback
+          position:
+            x: 120
+            'y': 360
+          slotName: test_feedback
+          type: slot
+    groupName: test feedback
+    name: testfeedback_form
+    slots:
+      - filling:
+          - intent:
+              - like_intent
+              - dislike_intent
+            not_intent: []
+            type: from_text
+        name: test_feedback
+        utter_on_new_valid_slot: false
+    updatedAt: 1661838532951
 intents:
+  - buttonzform
+  - final_test
   - get_started
+  - no_title
   - smalltalk.bye
   - smalltalk.greet
+  - test234
+  - test_feedback_form
+  - yes_title
+  - yesvalue
 responses:
   utter_0dAnR1BBQ:
     - language: en
@@ -128,7 +203,6 @@ responses:
       text: button message
   utter_853HIbyOy:
     - language: en
-      metadata: null
       text: this is test message
   utter_FvDUfx3Dq:
     - language: en

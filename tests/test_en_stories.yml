@@ -1,0 +1,21 @@
+stories:
+  - story: test feedback (1)
+    steps:
+      - user: test feedback form
+        intent: test_feedback_form
+      - action: testfeedback_form
+    metadata:
+      group: test feedback
+      language: en
+  - story: test feedback (3)
+    steps:
+      - action: utter_qSeoVS4Fb
+    metadata:
+      group: test feedback
+      language: en
+  - story: test feedback (4)
+    steps:
+      - action: utter_5fIVVDros
+    metadata:
+      group: test feedback
+      language: en
