@@ -1,0 +1,29 @@
+stories:
+  - story: testform (2)
+    steps:
+      - intent: buttondform
+        user: hi button form
+        entities: []
+      - action: testform_form
+      - active_loop: testform_form
+      - active_loop: null
+    metadata:
+      status: unpublished
+      group: testform
+  - story: testform (3)
+    steps:
+      - intent: yes_intent
+        entities: []
+      - action: utter_dCWDWig80o7
+    metadata:
+      status: unpublished
+      group: testform
+  - story: testform (4)
+    steps:
+      - intent: no_intent
+        entities: []
+      - action: utter_b6OVlqzz7j
+    metadata:
+      status: unpublished
+      group: testform
+rules: []

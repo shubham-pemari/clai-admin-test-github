@@ -3,7 +3,7 @@ rules:
   - rule: Farewells
     condition: []
     steps:
-      - intent: smalltalk.bye
+      - intent: chitchat.bye
       - action: utter_bye
     metadata:
       group: Example group
@@ -17,7 +17,7 @@ rules:
   - rule: Greetings
     condition: []
     steps:
-      - intent: smalltalk.greet
+      - intent: chitchat.greet
       - action: utter_hi
     metadata:
       group: Example group
