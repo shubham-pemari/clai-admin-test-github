@@ -100,7 +100,8 @@ intents:
 responses:
   utter_-PPC3uh_P:
     - language: en
-      text: with new admin
+      metadata: null
+      text: with new admin1
   utter_0dAnR1BBQ:
     - language: en
       quick_replies:
