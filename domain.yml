@@ -9,6 +9,7 @@ actions:
   - utter_6dDgzBb0k
   - utter_FvDUfx3Dq
   - utter_IWPoK6IVS
+  - utter_LHVy2pvbK
   - utter_OCE0hX0JE
   - utter_Olu_WoxyoG
   - utter_VTF9FHRLWa
@@ -210,6 +211,9 @@ responses:
           title: ''
           type: postback
       text: ''
+  utter_LHVy2pvbK:
+    - language: en
+      text: without ssh
   utter_OCE0hX0JE:
     - image:
         alt: ''
@@ -217,6 +221,7 @@ responses:
       language: en
   utter_Olu_WoxyoG:
     - language: en
+      metadata: null
       text: yesvalue hited
   utter_VTF9FHRLWa:
     - language: en
