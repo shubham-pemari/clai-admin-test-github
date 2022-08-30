@@ -12,7 +12,6 @@ actions:
   - utter_IWPoK6IVS
   - utter_OCE0hX0JE
   - utter_Olu_WoxyoG
-  - utter_SPwNi7WmR
   - utter_VTF9FHRLWa
   - utter_XYdSLARuP
   - utter_YcMJ0yWmxk
@@ -133,7 +132,7 @@ forms:
             type: from_text
         name: '1111'
         utter_on_new_valid_slot: false
-    updatedAt: 1661874184323
+    updatedAt: 1661874754622
   testfeedback_form:
     collect_in_clai: true
     description: test feedback form
@@ -167,7 +166,7 @@ forms:
             type: from_text
         name: test_feedback
         utter_on_new_valid_slot: false
-    updatedAt: 1661874184327
+    updatedAt: 1661874754624
 intents:
   - buttonzform
   - final_test
@@ -177,7 +176,6 @@ intents:
   - smalltalk.greet
   - test234
   - test_feedback_form
-  - yes_title
   - yesvalue
 responses:
   utter_0dAnR1BBQ:
@@ -204,7 +202,7 @@ responses:
       text: button message
   utter_853HIbyOy:
     - language: en
-      text: final code 5
+      text: final code 511
   utter_FvDUfx3Dq:
     - language: en
       text: ''
@@ -224,9 +222,6 @@ responses:
   utter_Olu_WoxyoG:
     - language: en
       text: yesvalue hited
-  utter_SPwNi7WmR:
-    - language: en
-      text: test with https
   utter_VTF9FHRLWa:
     - language: en
       text: yes title hited
