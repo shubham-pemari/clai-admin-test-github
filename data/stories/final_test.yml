@@ -1,0 +1,14 @@
+stories:
+  - story: final test (1)
+    steps:
+      - intent: final_test
+        user: final test
+      - action: utter_853HIbyOy
+    metadata:
+      group: final test
+  - story: final test (2)
+    steps:
+      - action: utter_SPwNi7WmR
+    metadata:
+      group: final test
+rules: []

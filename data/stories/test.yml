@@ -1,39 +1,33 @@
 stories:
-  - story: tessssttt
+  - story: button_story
     steps:
-      - intent: hitest
-        user: hi test
+      - intent: buttonzform
+        user: buttonz form
         entities: []
-      - action: utter_-PPC3uh_P
-    metadata:
-      group: test
-  - story: test (2)
-    steps:
-      - intent: testing
-        user: testing
-        entities: []
-      - action: utter_QndmCQw6W
+      - action: buttonz_form
+      - active_loop: buttonz_form
+      - active_loop: null
     metadata:
       group: test
   - story: test (3)
     steps:
-      - intent: test_star
+      - intent: yes_title
         entities: []
-      - action: utter_vavmah9gq
+      - action: utter_VTF9FHRLWa
     metadata:
       group: test
   - story: test (4)
     steps:
-      - intent: test_star2
+      - intent: no_title
         entities: []
-      - action: utter_D1WMvzyCk
+      - action: utter_YcMJ0yWmxk
     metadata:
       group: test
   - story: test (5)
     steps:
-      - intent: feedback_1
+      - intent: yesvalue
         entities: []
-      - action: utter_3jAqaMYvH
+      - action: utter_Olu_WoxyoG
     metadata:
       group: test
 rules: []
