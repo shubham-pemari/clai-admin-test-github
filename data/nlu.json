@@ -27,6 +27,15 @@
         }
       },
       {
+        "text": "bye bye",
+        "intent": "bye",
+        "entities": [],
+        "metadata": {
+          "language": "en",
+          "canonical": true
+        }
+      },
+      {
         "text": "dislike",
         "intent": "dislike_intent",
         "entities": [],

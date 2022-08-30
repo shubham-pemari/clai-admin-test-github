@@ -7,6 +7,13 @@ stories:
       - action: utter_-PPC3uh_P
     metadata:
       group: test
+  - story: test (3)
+    steps:
+      - intent: bye
+        user: bye bye
+      - action: utter_CVJsR5QwG
+    metadata:
+      group: test
   - story: test img
     steps:
       - intent: img

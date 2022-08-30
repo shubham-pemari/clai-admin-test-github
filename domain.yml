@@ -8,6 +8,7 @@ actions:
   - utter_-PPC3uh_P
   - utter_0dAnR1BBQ
   - utter_6dDgzBb0k
+  - utter_CVJsR5QwG
   - utter_FvDUfx3Dq
   - utter_IWPoK6IVS
   - utter_KyZahjoAc
@@ -163,8 +164,9 @@ forms:
             type: from_text
         name: test_starrating
         utter_on_new_valid_slot: false
-    updatedAt: 1661786841952
+    updatedAt: 1661838229473
 intents:
+  - bye
   - get_started
   - hitest
   - img
@@ -196,6 +198,9 @@ responses:
           title: button title2
           type: postback
       text: button message
+  utter_CVJsR5QwG:
+    - language: en
+      text: bye
   utter_FvDUfx3Dq:
     - language: en
       text: ''
