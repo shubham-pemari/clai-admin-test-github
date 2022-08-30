@@ -4,28 +4,23 @@ actions:
   - action_botfront_fallback
   - action_botfront_mapping
   - action_clarity_default_slots
+  - utter_-PPC3uh_P
   - utter_0dAnR1BBQ
-  - utter_5fIVVDros
+  - utter_3jAqaMYvH
   - utter_6dDgzBb0k
-  - utter_853HIbyOy
+  - utter_D1WMvzyCk
   - utter_FvDUfx3Dq
   - utter_IWPoK6IVS
   - utter_OCE0hX0JE
-  - utter_Olu_WoxyoG
-  - utter_VTF9FHRLWa
+  - utter_QndmCQw6W
   - utter_XYdSLARuP
-  - utter_YcMJ0yWmxk
   - utter_aJ3NtWkVTx
-  - utter_ask_111
-  - utter_ask_1111
-  - utter_ask_333
   - utter_ask_SADFGHN
   - utter_ask_adf
   - utter_ask_appointment
   - utter_ask_asdf
   - utter_ask_asdfasdfg
   - utter_ask_asdfasdg
-  - utter_ask_asdfsdf
   - utter_ask_asdvfbh
   - utter_ask_ask1
   - utter_ask_ask2
@@ -55,7 +50,6 @@ actions:
   - utter_ask_slot11
   - utter_ask_slot_1
   - utter_ask_slot_2
-  - utter_ask_test_feedback
   - utter_ask_text1
   - utter_ask_text2
   - utter_ask_tttt
@@ -69,11 +63,6 @@ actions:
   - utter_hi
   - utter_jdakvA5bn
   - utter_qKeA3q7xe
-  - utter_qSeoVS4Fb
-  - utter_valid_111
-  - utter_valid_1111
-  - utter_valid_333
-  - utter_valid_asdfsdf
   - utter_valid_button_slot
   - utter_valid_button_slot2
   - utter_valid_button_slots
@@ -92,92 +81,26 @@ actions:
   - utter_valid_quickreply_slot
   - utter_valid_slot11
   - utter_valid_slot_2
-  - utter_valid_test_feedback
   - utter_valid_text2
   - utter_valid_tttt
   - utter_valid_tttttt
+  - utter_vavmah9gq
   - utter_zXFDAp4xR
 entities: []
-forms:
-  buttonz_form:
-    collect_in_clai: true
-    description: buttonz form
-    graph_elements:
-      edges:
-        - condition: null
-          id: e1-1111
-          source: '1'
-          target: '1111'
-          type: condition
-      nodes:
-        - id: '1'
-          position:
-            x: 200
-            'y': 160
-          type: start
-        - id: '1111'
-          position:
-            x: 120
-            'y': 340
-          slotName: '1111'
-          type: slot
-    groupName: test
-    name: buttonz_form
-    slots:
-      - filling:
-          - intent:
-              - yes_title
-              - no_title
-            not_intent: null
-            type: from_text
-        name: '1111'
-        utter_on_new_valid_slot: false
-    updatedAt: 1661862239193
-  testfeedback_form:
-    collect_in_clai: true
-    description: test feedback form
-    graph_elements:
-      edges:
-        - condition: null
-          id: e1-test_feedback
-          source: '1'
-          target: test_feedback
-          type: condition
-      nodes:
-        - id: '1'
-          position:
-            x: 200
-            'y': 200
-          type: start
-        - id: test_feedback
-          position:
-            x: 120
-            'y': 360
-          slotName: test_feedback
-          type: slot
-    groupName: test feedback
-    name: testfeedback_form
-    slots:
-      - filling:
-          - intent:
-              - like_intent
-              - dislike_intent
-            not_intent: []
-            type: from_text
-        name: test_feedback
-        utter_on_new_valid_slot: false
-    updatedAt: 1661862239197
+forms: {}
 intents:
-  - buttonzform
-  - final_test
+  - feedback_1
   - get_started
-  - no_title
+  - hitest
   - smalltalk.bye
   - smalltalk.greet
-  - test234
-  - test_feedback_form
-  - yesvalue
+  - test_star
+  - test_star2
+  - testing
 responses:
+  utter_-PPC3uh_P:
+    - language: en
+      text: with new admin1
   utter_0dAnR1BBQ:
     - language: en
       quick_replies:
@@ -186,9 +109,9 @@ responses:
           title: ''
           type: postback
       text: ''
-  utter_5fIVVDros:
+  utter_3jAqaMYvH:
     - language: en
-      text: like intent hited
+      text: feedback_1 hited
   utter_6dDgzBb0k:
     - language: en
       quick_replies:
@@ -200,11 +123,16 @@ responses:
           title: button title2
           type: postback
       text: button message
-  utter_853HIbyOy:
+  utter_D1WMvzyCk:
     - language: en
-      text: last msg is mario
+      text: test_star2 hited
   utter_FvDUfx3Dq:
     - language: en
+      likedislike:
+        - payload: ''
+          payload_value: ''
+          title: ''
+          type: postback
       text: ''
   utter_IWPoK6IVS:
     - language: en
@@ -219,12 +147,30 @@ responses:
         alt: ''
         url: ''
       language: en
-  utter_Olu_WoxyoG:
+  utter_QndmCQw6W:
     - language: en
-      text: yesvalue hited
-  utter_VTF9FHRLWa:
-    - language: en
-      text: yes title hited
+      starrating:
+        - payload: /1
+          payload_value: asdfghj
+          title: star_1
+          type: postback
+        - payload: /2
+          payload_value: ''
+          title: star_2
+          type: postback
+        - payload: /test_star2
+          payload_value: ''
+          title: star_3
+          type: postback
+        - payload: feedback_4
+          payload_value: val444
+          title: star_4
+          type: postback
+        - payload: feedback_5
+          payload_value: ''
+          title: star_5
+          type: postback
+      text: test starrating
   utter_XYdSLARuP:
     - language: en
       quick_replies:
@@ -233,9 +179,6 @@ responses:
           title: ''
           type: postback
       text: ''
-  utter_YcMJ0yWmxk:
-    - language: en
-      text: no title hited
   utter_aJ3NtWkVTx:
     - language: en
       quick_replies:
@@ -244,44 +187,13 @@ responses:
           title: ''
           type: postback
       text: ''
-  utter_ask_111:
-    - buttons:
-        - payload: /button
-          payload_value: ''
-          title: '11'
-          type: postback
-        - payload: /button2
-          payload_value: val2234567o
-          title: '22'
-          type: postback
-      language: en
-      text: hi
-  utter_ask_1111:
-    - language: en
-      quick_replies:
-        - payload: /yes_title
-          payload_value: yesvalue
-          title: yes title
-          type: postback
-        - payload: /no_title
-          payload_value: ''
-          title: no title
-          type: postback
-      text: yes or no
-  utter_ask_333:
+  utter_ask_SADFGHN:
     - language: en
       likedislike:
         - payload: /like_intent
-          payload_value: likevalue
-          title: like
-          type: postback
-        - payload: /dislike_intent
           payload_value: ''
-          title: dislike
+          title: ''
           type: postback
-      text: like or dislike
-  utter_ask_SADFGHN:
-    - language: en
       text: ''
   utter_ask_adf:
     - language: en
@@ -291,16 +203,28 @@ responses:
       text: appointment date?
   utter_ask_asdf:
     - language: en
+      starrating:
+        - payload: /feedback_1
+          payload_value: sdfs
+          title: star_1
+          type: postback
       text: ''
   utter_ask_asdfasdfg:
     - language: en
+      starrating:
+        - payload: ''
+          payload_value: ''
+          title: ''
+          type: postback
       text: awerh
   utter_ask_asdfasdg:
     - language: en
+      likedislike:
+        - payload: ''
+          payload_value: ''
+          title: ''
+          type: postback
       text: ''
-  utter_ask_asdfsdf:
-    - language: en
-      text: how are you?
   utter_ask_asdvfbh:
     - language: en
       text: ''
@@ -431,12 +355,43 @@ responses:
       language: en
   utter_ask_mac1:
     - language: en
+      starrating:
+        - payload: /feedback_1
+          payload_value: ss
+          title: star_1
+          type: postback
+        - payload: /feedback_2
+          payload_value: ss22
+          title: star_2
+          type: postback
       text: how will you rate us
   utter_ask_mac2:
     - language: en
+      starrating:
+        - payload: /feedback_1
+          payload_value: kk
+          title: star_1
+          type: postback
+        - payload: /feedback_2
+          payload_value: lll
+          title: star_2
+          type: postback
       text: how will you rate our bot behaviour
   utter_ask_mmm:
     - language: en
+      starrating:
+        - payload: /feedback_1
+          payload_value: formval1
+          title: star_1
+          type: postback
+        - payload: /feedback_2
+          payload_value: formval2
+          title: star_2
+          type: postback
+        - payload: /feedback_3
+          payload_value: formval3
+          title: star_3
+          type: postback
       text: give feedback for form
   utter_ask_petient_last_name:
     - buttons:
@@ -464,6 +419,15 @@ responses:
       text: qr message
   utter_ask_qqqq:
     - language: en
+      starrating:
+        - payload: /feedback_1
+          payload_value: ''
+          title: star_1
+          type: postback
+        - payload: /feedback_2
+          payload_value: ''
+          title: star_2
+          type: postback
       text: ''
   utter_ask_quick_reply_slot:
     - language: en
@@ -526,9 +490,19 @@ responses:
       text: qr que
   utter_ask_sdgsdf:
     - language: en
+      starrating:
+        - payload: ''
+          payload_value: ''
+          title: ''
+          type: postback
       text: ''
   utter_ask_sfgss:
     - language: en
+      starrating:
+        - payload: /starratingform
+          payload_value: '12345'
+          title: star_1
+          type: postback
       text: ''
   utter_ask_slot11:
     - language: en
@@ -566,18 +540,6 @@ responses:
           title: qr title4
           type: postback
       text: qr message2
-  utter_ask_test_feedback:
-    - language: en
-      likedislike:
-        - payload: /like_intent
-          payload_value: ''
-          title: like
-          type: postback
-        - payload: /dislike_intent
-          payload_value: ''
-          title: dislike
-          type: postback
-      text: testing feedback
   utter_ask_text1:
     - language: en
       text: how are you?
@@ -604,6 +566,15 @@ responses:
       text: ''
   utter_ask_wqerh:
     - language: en
+      starrating:
+        - payload: /feedback_1
+          payload_value: asdgfsd
+          title: star_1
+          type: postback
+        - payload: /feedback_2
+          payload_value: ''
+          title: star_2
+          type: postback
       text: ''
   utter_atpITODPo:
     - language: en
@@ -629,25 +600,128 @@ responses:
       text: 'hi, how can I help?'
   utter_jdakvA5bn:
     - language: en
+      starrating:
+        - payload: /tesst
+          payload_value: asdf
+          title: sdfdf
+          type: postback
+        - payload: /feedback_1
+          payload_value: ''
+          title: star_1
+          type: postback
+        - payload: /feedback_2
+          payload_value: asfdas
+          title: star_2
+          type: postback
+        - payload: /feedback_2
+          payload_value: ''
+          title: star_2
+          type: postback
+        - payload: /feedback_3
+          payload_value: ''
+          title: star_3
+          type: postback
+        - payload: /feedback_4
+          payload_value: ''
+          title: star_4
+          type: postback
+        - payload: /feedback_5
+          payload_value: ''
+          title: star_5
+          type: postback
+        - payload: /feedback_6
+          payload_value: ''
+          title: star_6
+          type: postback
+        - payload: /feedback_7
+          payload_value: ''
+          title: star_7
+          type: postback
+        - payload: /feedback_8
+          payload_value: ''
+          title: star_8
+          type: postback
+        - payload: /feedback_9
+          payload_value: ''
+          title: star_9
+          type: postback
+        - payload: /feedback_10
+          payload_value: ''
+          title: star_10
+          type: postback
+        - payload: /feedback_11
+          payload_value: ''
+          title: star_11
+          type: postback
+        - payload: /feedback_12
+          payload_value: ''
+          title: star_12
+          type: postback
+        - payload: /feedback_13
+          payload_value: ''
+          title: star_13
+          type: postback
+        - payload: /feedback_14
+          payload_value: ''
+          title: star_14
+          type: postback
+        - payload: /feedback_15
+          payload_value: ''
+          title: star_15
+          type: postback
+        - payload: /feedback_16
+          payload_value: ''
+          title: star_16
+          type: postback
+        - payload: /feedback_17
+          payload_value: ''
+          title: star_17
+          type: postback
+        - payload: /feedback_18
+          payload_value: ''
+          title: star_18
+          type: postback
+        - payload: /feedback_19
+          payload_value: ''
+          title: star_19
+          type: postback
+        - payload: /feedback_20
+          payload_value: ''
+          title: star_20
+          type: postback
+        - payload: /feedback_21
+          payload_value: ''
+          title: star_21
+          type: postback
+        - payload: /feedback_22
+          payload_value: ''
+          title: star_22
+          type: postback
+        - payload: /feedback_23
+          payload_value: ''
+          title: star_23
+          type: postback
+        - payload: /feedback_24
+          payload_value: ''
+          title: star_24
+          type: postback
+        - payload: /feedback_25
+          payload_value: ''
+          title: star_25
+          type: postback
+        - payload: /feedback_26
+          payload_value: ''
+          title: star_26
+          type: postback
       text: kjhgfds
   utter_qKeA3q7xe:
     - language: en
+      likedislike:
+        - payload: ''
+          payload_value: ''
+          title: ''
+          type: postback
       text: wr
-  utter_qSeoVS4Fb:
-    - language: en
-      text: dislike intent hited
-  utter_valid_111:
-    - language: en
-      text: filled
-  utter_valid_1111:
-    - language: en
-      text: form filled.
-  utter_valid_333:
-    - language: en
-      text: likedislike form filled.
-  utter_valid_asdfsdf:
-    - language: en
-      text: filled
   utter_valid_button_slot:
     - language: en
       text: filled
@@ -702,9 +776,6 @@ responses:
   utter_valid_slot_2:
     - language: en
       text: form filled
-  utter_valid_test_feedback:
-    - language: en
-      text: form filled.
   utter_valid_text2:
     - language: en
       text: form filled
@@ -714,6 +785,9 @@ responses:
   utter_valid_tttttt:
     - language: en
       text: filled
+  utter_vavmah9gq:
+    - language: en
+      text: test_star hited
   utter_zXFDAp4xR:
     - language: en
       quick_replies:
@@ -724,12 +798,6 @@ responses:
       text: ''
 session_config: {}
 slots:
-  '111':
-    type: text
-  '1111':
-    type: text
-  '333':
-    type: text
   SADFGHN:
     type: text
   adf:
@@ -741,8 +809,6 @@ slots:
   asdfasdfg:
     type: text
   asdfasdg:
-    type: text
-  asdfsdf:
     type: text
   asdvfbh:
     type: text
@@ -813,8 +879,6 @@ slots:
   slot_1:
     type: text
   slot_2:
-    type: text
-  test_feedback:
     type: text
   text1:
     type: text
