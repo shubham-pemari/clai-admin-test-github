@@ -9,6 +9,13 @@ stories:
       - active_loop: null
     metadata:
       group: test
+  - story: test (3)
+    steps:
+      - intent: yes_title
+        entities: []
+      - action: utter_VTF9FHRLWa
+    metadata:
+      group: test
   - story: test (4)
     steps:
       - intent: no_title
