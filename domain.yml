@@ -132,7 +132,7 @@ forms:
             type: from_text
         name: '1111'
         utter_on_new_valid_slot: false
-    updatedAt: 1661861981376
+    updatedAt: 1661862239193
   testfeedback_form:
     collect_in_clai: true
     description: test feedback form
@@ -166,7 +166,7 @@ forms:
             type: from_text
         name: test_feedback
         utter_on_new_valid_slot: false
-    updatedAt: 1661861981381
+    updatedAt: 1661862239197
 intents:
   - buttonzform
   - final_test
@@ -202,8 +202,7 @@ responses:
       text: button message
   utter_853HIbyOy:
     - language: en
-      metadata: null
-      text: final code 511
+      text: last msg is mario
   utter_FvDUfx3Dq:
     - language: en
       text: ''
