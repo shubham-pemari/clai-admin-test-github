@@ -10,4 +10,8 @@ stories:
       - action: utter_LHVy2pvbK
     metadata:
       group: test123
+  - story: test123 (3)
+    steps: []
+    metadata:
+      group: test123
 rules: []
