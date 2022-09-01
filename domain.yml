@@ -132,7 +132,7 @@ forms:
             type: from_text
         name: '1111'
         utter_on_new_valid_slot: false
-    updatedAt: 1662027537039
+    updatedAt: 1662027598369
   testfeedback_form:
     collect_in_clai: true
     description: test feedback form
@@ -166,7 +166,7 @@ forms:
             type: from_text
         name: test_feedback
         utter_on_new_valid_slot: false
-    updatedAt: 1662027537041
+    updatedAt: 1662027598372
 intents:
   - buttonzform
   - get_started
@@ -213,8 +213,7 @@ responses:
       text: ''
   utter_LHVy2pvbK:
     - language: en
-      metadata: null
-      text: without ssh1234567
+      text: without ssh1234
   utter_OCE0hX0JE:
     - image:
         alt: ''
