@@ -1,0 +1,8 @@
+stories:
+  - story: test commit
+    steps:
+      - intent: commit
+        user: test commit
+    metadata:
+      group: test commit
+rules: []

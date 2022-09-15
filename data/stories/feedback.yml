@@ -1,0 +1,27 @@
+stories:
+  - story: dislike
+    steps:
+      - intent: dislike_intent
+        entities: []
+      - action: utter_JtMMvY1nG
+    metadata:
+      group: Feedback
+  - story: feedback
+    steps:
+      - intent: feedback
+        user: feedback
+        entities: []
+      - action: feedback_form
+      - active_loop: feedback_form
+      - active_loop: null
+      - action: action_reset_form_slots
+    metadata:
+      group: Feedback
+  - story: like
+    steps:
+      - intent: like_intent
+        entities: []
+      - action: utter_WS2WChHPB
+    metadata:
+      group: Feedback
+rules: []

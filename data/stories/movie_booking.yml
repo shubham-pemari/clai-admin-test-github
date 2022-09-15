@@ -1,0 +1,13 @@
+stories:
+  - story: Movie booking
+    steps:
+      - intent: movie_ticket
+        user: i want to book a movie ticket
+        entities: []
+      - action: movie_booking_form
+      - active_loop: movie_booking_form
+      - active_loop: null
+      - action: action_reset_form_slots
+    metadata:
+      group: Movie booking
+rules: []

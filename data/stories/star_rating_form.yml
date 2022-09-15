@@ -1,0 +1,34 @@
+stories:
+  - story: feedback_1
+    steps:
+      - intent: feedback_1
+        entities: []
+      - action: utter_TytsSbpqBj
+    metadata:
+      group: star rating form
+  - story: feedback_2
+    steps:
+      - intent: feedback_2
+        entities: []
+      - action: utter_7UEqWeGin
+    metadata:
+      group: star rating form
+  - story: feedback_3
+    steps:
+      - intent: feedback_3
+        entities: []
+      - action: utter_kSKrFhpi-
+    metadata:
+      group: star rating form
+  - story: star rating form (1)
+    steps:
+      - intent: star_rating
+        user: star rating
+        entities: []
+      - action: starrating_value_form
+      - active_loop: starrating_value_form
+      - active_loop: null
+      - action: action_reset_form_slots
+    metadata:
+      group: star rating form
+rules: []

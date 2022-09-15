@@ -2,8 +2,75 @@
   "rasa_nlu_data": {
     "common_examples": [
       {
-        "text": "butto",
-        "intent": "buttonform",
+        "text": "action",
+        "intent": "action",
+        "entities": [],
+        "metadata": {
+          "language": "en"
+        }
+      },
+      {
+        "text": "action start",
+        "intent": "action",
+        "entities": [],
+        "metadata": {
+          "language": "en"
+        }
+      },
+      {
+        "text": "start action",
+        "intent": "action",
+        "entities": [],
+        "metadata": {
+          "language": "en",
+          "canonical": true
+        }
+      },
+      {
+        "text": "start actions",
+        "intent": "action",
+        "entities": [],
+        "metadata": {
+          "language": "en"
+        }
+      },
+      {
+        "text": "animal",
+        "intent": "animal",
+        "entities": [],
+        "metadata": {
+          "language": "en",
+          "canonical": true
+        }
+      },
+      {
+        "text": "booking",
+        "intent": "booking",
+        "entities": [],
+        "metadata": {
+          "language": "en",
+          "canonical": true
+        }
+      },
+      {
+        "text": "booking please",
+        "intent": "booking",
+        "entities": [],
+        "metadata": {
+          "language": "en"
+        }
+      },
+      {
+        "text": "i want to book a movie ticket",
+        "intent": "booking",
+        "entities": [],
+        "metadata": {
+          "language": "en"
+        }
+      },
+      {
+        "text": "please book",
+        "intent": "booking",
         "entities": [],
         "metadata": {
           "language": "en"
@@ -11,15 +78,7 @@
       },
       {
         "text": "button",
-        "intent": "buttonform",
-        "entities": [],
-        "metadata": {
-          "language": "en"
-        }
-      },
-      {
-        "text": "buttonform",
-        "intent": "buttonform",
+        "intent": "button",
         "entities": [],
         "metadata": {
           "language": "en",
@@ -27,40 +86,8 @@
         }
       },
       {
-        "text": "button form",
-        "intent": "buttonzform",
-        "entities": [],
-        "metadata": {
-          "language": "en"
-        }
-      },
-      {
-        "text": "button forms",
-        "intent": "buttonzform",
-        "entities": [],
-        "metadata": {
-          "language": "en"
-        }
-      },
-      {
-        "text": "buttonforms",
-        "intent": "buttonzform",
-        "entities": [],
-        "metadata": {
-          "language": "en"
-        }
-      },
-      {
-        "text": "buttonss",
-        "intent": "buttonzform",
-        "entities": [],
-        "metadata": {
-          "language": "en"
-        }
-      },
-      {
-        "text": "buttonz form",
-        "intent": "buttonzform",
+        "text": "carousel",
+        "intent": "carousel",
         "entities": [],
         "metadata": {
           "language": "en",
@@ -68,16 +95,16 @@
         }
       },
       {
-        "text": "dislike",
-        "intent": "dislike_intent",
+        "text": "carousels",
+        "intent": "carousel",
         "entities": [],
         "metadata": {
           "language": "en"
         }
       },
       {
-        "text": "dislike intent",
-        "intent": "dislike_intent",
+        "text": "chennai",
+        "intent": "city",
         "entities": [],
         "metadata": {
           "language": "en",
@@ -85,8 +112,530 @@
         }
       },
       {
-        "text": "dislikeintent",
-        "intent": "dislike_intent",
+        "text": "hyd",
+        "intent": "city",
+        "entities": [],
+        "metadata": {
+          "language": "en"
+        }
+      },
+      {
+        "text": "mum",
+        "intent": "city",
+        "entities": [],
+        "metadata": {
+          "language": "en"
+        }
+      },
+      {
+        "text": "test commit",
+        "intent": "commit",
+        "entities": [],
+        "metadata": {
+          "language": "en",
+          "canonical": true
+        }
+      },
+      {
+        "text": "feedback",
+        "intent": "feedback",
+        "entities": [],
+        "metadata": {
+          "language": "en",
+          "canonical": true
+        }
+      },
+      {
+        "text": "feedbacks",
+        "intent": "feedback",
+        "entities": [],
+        "metadata": {
+          "language": "en"
+        }
+      },
+      {
+        "text": "want to give feedback",
+        "intent": "feedback",
+        "entities": [],
+        "metadata": {
+          "language": "en"
+        }
+      },
+      {
+        "text": "image",
+        "intent": "image",
+        "entities": [],
+        "metadata": {
+          "language": "en",
+          "canonical": true
+        }
+      },
+      {
+        "text": "images",
+        "intent": "image",
+        "entities": [],
+        "metadata": {
+          "language": "en"
+        }
+      },
+      {
+        "text": "img",
+        "intent": "image",
+        "entities": [],
+        "metadata": {
+          "language": "en"
+        }
+      },
+      {
+        "text": "show image",
+        "intent": "image",
+        "entities": [],
+        "metadata": {
+          "language": "en"
+        }
+      },
+      {
+        "text": "burger",
+        "intent": "item",
+        "entities": [],
+        "metadata": {
+          "language": "en",
+          "canonical": true
+        }
+      },
+      {
+        "text": "pepsi",
+        "intent": "item",
+        "entities": [],
+        "metadata": {
+          "language": "en"
+        }
+      },
+      {
+        "text": "pizza",
+        "intent": "item",
+        "entities": [],
+        "metadata": {
+          "language": "en"
+        }
+      },
+      {
+        "text": "fun jokes",
+        "intent": "jokes",
+        "entities": [],
+        "metadata": {
+          "language": "en"
+        }
+      },
+      {
+        "text": "joke",
+        "intent": "jokes",
+        "entities": [],
+        "metadata": {
+          "language": "en"
+        }
+      },
+      {
+        "text": "jokes",
+        "intent": "jokes",
+        "entities": [],
+        "metadata": {
+          "language": "en",
+          "canonical": true
+        }
+      },
+      {
+        "text": "more jokes",
+        "intent": "jokes",
+        "entities": [],
+        "metadata": {
+          "language": "en"
+        }
+      },
+      {
+        "text": "more jokes please",
+        "intent": "jokes",
+        "entities": [],
+        "metadata": {
+          "language": "en"
+        }
+      },
+      {
+        "text": "like",
+        "intent": "like",
+        "entities": [],
+        "metadata": {
+          "language": "en",
+          "canonical": true
+        }
+      },
+      {
+        "text": "delhi",
+        "intent": "location",
+        "entities": [],
+        "metadata": {
+          "language": "en",
+          "canonical": true
+        }
+      },
+      {
+        "text": "goa",
+        "intent": "location",
+        "entities": [],
+        "metadata": {
+          "language": "en"
+        }
+      },
+      {
+        "text": "mumbai",
+        "intent": "location",
+        "entities": [],
+        "metadata": {
+          "language": "en"
+        }
+      },
+      {
+        "text": "pune",
+        "intent": "location",
+        "entities": [],
+        "metadata": {
+          "language": "en"
+        }
+      },
+      {
+        "text": "dhee",
+        "intent": "movie_name",
+        "entities": [],
+        "metadata": {
+          "language": "en",
+          "canonical": true
+        }
+      },
+      {
+        "text": "kgf",
+        "intent": "movie_name",
+        "entities": [],
+        "metadata": {
+          "language": "en"
+        }
+      },
+      {
+        "text": "krish",
+        "intent": "movie_name",
+        "entities": [],
+        "metadata": {
+          "language": "en"
+        }
+      },
+      {
+        "text": "rr",
+        "intent": "movie_name",
+        "entities": [],
+        "metadata": {
+          "language": "en"
+        }
+      },
+      {
+        "text": "rrr",
+        "intent": "movie_name",
+        "entities": [],
+        "metadata": {
+          "language": "en"
+        }
+      },
+      {
+        "text": "slne",
+        "intent": "movie_name",
+        "entities": [],
+        "metadata": {
+          "language": "en"
+        }
+      },
+      {
+        "text": "book a movie",
+        "intent": "movie_ticket",
+        "entities": [],
+        "metadata": {
+          "language": "en"
+        }
+      },
+      {
+        "text": "booking tickets for movie",
+        "intent": "movie_ticket",
+        "entities": [],
+        "metadata": {
+          "language": "en"
+        }
+      },
+      {
+        "text": "help me in bookim=ng movie tickets",
+        "intent": "movie_ticket",
+        "entities": [],
+        "metadata": {
+          "language": "en"
+        }
+      },
+      {
+        "text": "movie booking",
+        "intent": "movie_ticket",
+        "entities": [],
+        "metadata": {
+          "language": "en",
+          "canonical": true
+        }
+      },
+      {
+        "text": "movie ticket",
+        "intent": "movie_ticket",
+        "entities": [],
+        "metadata": {
+          "language": "en"
+        }
+      },
+      {
+        "text": "movie tickets",
+        "intent": "movie_ticket",
+        "entities": [],
+        "metadata": {
+          "language": "en"
+        }
+      },
+      {
+        "text": "1",
+        "intent": "movie_tickets",
+        "entities": [],
+        "metadata": {
+          "language": "en",
+          "canonical": true
+        }
+      },
+      {
+        "text": "2",
+        "intent": "movie_tickets",
+        "entities": [],
+        "metadata": {
+          "language": "en"
+        }
+      },
+      {
+        "text": "3",
+        "intent": "movie_tickets",
+        "entities": [],
+        "metadata": {
+          "language": "en"
+        }
+      },
+      {
+        "text": "4",
+        "intent": "movie_tickets",
+        "entities": [],
+        "metadata": {
+          "language": "en"
+        }
+      },
+      {
+        "text": "5",
+        "intent": "movie_tickets",
+        "entities": [],
+        "metadata": {
+          "language": "en"
+        }
+      },
+      {
+        "text": "one",
+        "intent": "one",
+        "entities": [],
+        "metadata": {
+          "language": "en",
+          "canonical": true
+        }
+      },
+      {
+        "text": "one ",
+        "intent": "one",
+        "entities": [],
+        "metadata": {
+          "language": "en",
+          "canonical": true
+        }
+      },
+      {
+        "text": "order",
+        "intent": "order",
+        "entities": [],
+        "metadata": {
+          "language": "en",
+          "canonical": true
+        }
+      },
+      {
+        "text": "order food",
+        "intent": "order",
+        "entities": [],
+        "metadata": {
+          "language": "en"
+        }
+      },
+      {
+        "text": "please order",
+        "intent": "order",
+        "entities": [],
+        "metadata": {
+          "language": "en"
+        }
+      },
+      {
+        "text": "onscreen",
+        "intent": "osg",
+        "entities": [],
+        "metadata": {
+          "language": "en"
+        }
+      },
+      {
+        "text": "onscreen guidances",
+        "intent": "osg",
+        "entities": [],
+        "metadata": {
+          "language": "en"
+        }
+      },
+      {
+        "text": "onscreen osg",
+        "intent": "osg",
+        "entities": [],
+        "metadata": {
+          "language": "en"
+        }
+      },
+      {
+        "text": "osg",
+        "intent": "osg",
+        "entities": [],
+        "metadata": {
+          "language": "en",
+          "canonical": true
+        }
+      },
+      {
+        "text": "report",
+        "intent": "reports",
+        "entities": [],
+        "metadata": {
+          "language": "en",
+          "canonical": true
+        }
+      },
+      {
+        "text": "run a report",
+        "intent": "reports",
+        "entities": [],
+        "metadata": {
+          "language": "en"
+        }
+      },
+      {
+        "text": "run report",
+        "intent": "reports",
+        "entities": [],
+        "metadata": {
+          "language": "en"
+        }
+      },
+      {
+        "text": "run reports",
+        "intent": "reports",
+        "entities": [],
+        "metadata": {
+          "language": "en"
+        }
+      },
+      {
+        "text": "show my reports",
+        "intent": "reports",
+        "entities": [],
+        "metadata": {
+          "language": "en"
+        }
+      },
+      {
+        "text": "slot",
+        "intent": "slot",
+        "entities": [],
+        "metadata": {
+          "language": "en",
+          "canonical": true
+        }
+      },
+      {
+        "text": "slots",
+        "intent": "slot",
+        "entities": [],
+        "metadata": {
+          "language": "en"
+        }
+      },
+      {
+        "text": "rating star",
+        "intent": "star_rating",
+        "entities": [],
+        "metadata": {
+          "language": "en"
+        }
+      },
+      {
+        "text": "star rating",
+        "intent": "star_rating",
+        "entities": [],
+        "metadata": {
+          "language": "en",
+          "canonical": true
+        }
+      },
+      {
+        "text": "star rating please",
+        "intent": "star_rating",
+        "entities": [],
+        "metadata": {
+          "language": "en"
+        }
+      },
+      {
+        "text": "show table",
+        "intent": "table",
+        "entities": [],
+        "metadata": {
+          "language": "en"
+        }
+      },
+      {
+        "text": "table",
+        "intent": "table",
+        "entities": [],
+        "metadata": {
+          "language": "en",
+          "canonical": true
+        }
+      },
+      {
+        "text": "table data",
+        "intent": "table",
+        "entities": [],
+        "metadata": {
+          "language": "en"
+        }
+      },
+      {
+        "text": "tables",
+        "intent": "table",
+        "entities": [],
+        "metadata": {
+          "language": "en"
+        }
+      },
+      {
+        "text": "hello",
+        "intent": "text",
         "entities": [],
         "metadata": {
           "language": "en"
@@ -94,7 +643,31 @@
       },
       {
         "text": "hey",
-        "intent": "he",
+        "intent": "text",
+        "entities": [],
+        "metadata": {
+          "language": "en"
+        }
+      },
+      {
+        "text": "hi",
+        "intent": "text",
+        "entities": [],
+        "metadata": {
+          "language": "en"
+        }
+      },
+      {
+        "text": "hii",
+        "intent": "text",
+        "entities": [],
+        "metadata": {
+          "language": "en"
+        }
+      },
+      {
+        "text": "text",
+        "intent": "text",
         "entities": [],
         "metadata": {
           "language": "en",
@@ -102,16 +675,24 @@
         }
       },
       {
-        "text": "like",
-        "intent": "like_intent",
+        "text": "text please",
+        "intent": "text",
         "entities": [],
         "metadata": {
           "language": "en"
         }
       },
       {
-        "text": "like intent",
-        "intent": "like_intent",
+        "text": "this is text",
+        "intent": "text",
+        "entities": [],
+        "metadata": {
+          "language": "en"
+        }
+      },
+      {
+        "text": "amb",
+        "intent": "theater",
         "entities": [],
         "metadata": {
           "language": "en",
@@ -119,40 +700,40 @@
         }
       },
       {
-        "text": "like_intent",
-        "intent": "like_intent",
+        "text": "asian",
+        "intent": "theater",
         "entities": [],
         "metadata": {
           "language": "en"
         }
       },
       {
-        "text": "l",
-        "intent": "likeform",
+        "text": "cinimax",
+        "intent": "theater",
         "entities": [],
         "metadata": {
           "language": "en"
         }
       },
       {
-        "text": "like form",
-        "intent": "likeform",
+        "text": "pvr",
+        "intent": "theater",
         "entities": [],
         "metadata": {
           "language": "en"
         }
       },
       {
-        "text": "likedislikeform",
-        "intent": "likeform",
+        "text": "sv",
+        "intent": "theater",
         "entities": [],
         "metadata": {
           "language": "en"
         }
       },
       {
-        "text": "likeform",
-        "intent": "likeform",
+        "text": "three",
+        "intent": "three",
         "entities": [],
         "metadata": {
           "language": "en",
@@ -160,16 +741,8 @@
         }
       },
       {
-        "text": "likeforms",
-        "intent": "likeform",
-        "entities": [],
-        "metadata": {
-          "language": "en"
-        }
-      },
-      {
-        "text": "no title",
-        "intent": "no_title",
+        "text": "two",
+        "intent": "two",
         "entities": [],
         "metadata": {
           "language": "en",
@@ -177,8 +750,24 @@
         }
       },
       {
-        "text": "test feedback form",
-        "intent": "test_feedback_form",
+        "text": "play video",
+        "intent": "video",
+        "entities": [],
+        "metadata": {
+          "language": "en"
+        }
+      },
+      {
+        "text": "vedio",
+        "intent": "video",
+        "entities": [],
+        "metadata": {
+          "language": "en"
+        }
+      },
+      {
+        "text": "video",
+        "intent": "video",
         "entities": [],
         "metadata": {
           "language": "en",
@@ -186,45 +775,11 @@
         }
       },
       {
-        "text": "yes title",
-        "intent": "yes_title",
-        "entities": [],
-        "metadata": {
-          "language": "en",
-          "canonical": true
-        }
-      },
-      {
-        "text": "yes value",
-        "intent": "yes_title",
+        "text": "videos",
+        "intent": "video",
         "entities": [],
         "metadata": {
           "language": "en"
-        }
-      },
-      {
-        "text": "yestitle",
-        "intent": "yes_title",
-        "entities": [],
-        "metadata": {
-          "language": "en"
-        }
-      },
-      {
-        "text": "yesvalue",
-        "intent": "yes_title",
-        "entities": [],
-        "metadata": {
-          "language": "en"
-        }
-      },
-      {
-        "text": "yes",
-        "intent": "yesvalue",
-        "entities": [],
-        "metadata": {
-          "language": "en",
-          "canonical": true
         }
       }
     ],
