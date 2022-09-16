@@ -4,139 +4,147 @@ actions:
   - action_botfront_fallback
   - action_botfront_mapping
   - action_clarity_default_slots
-  - action_get_queryname
-  - action_jokes
-  - action_reset_form_slots
-  - action_run_report
-  - action_slot_reset
-  - utter_02Tr_QO2d
-  - utter_0cThZop7t
-  - utter_33EovqOMBGE
-  - utter_40cf2427H
-  - utter_7UEqWeGin
-  - utter_9QbtRqOuW
-  - utter_Fh8EeWF9q
-  - utter_HVZ73HOSk
-  - utter_HoQ0DfhqC
-  - utter_JtMMvY1nG
-  - utter_OIb03ndMA
-  - utter_QxMVnFtuA
-  - utter_TytsSbpqBj
-  - utter_WS2WChHPB
-  - utter_XNrrSCP-w
-  - utter_YKLU4y8a7
-  - utter_YyDZJxf3Y
-  - utter_ask_booking
-  - utter_ask_city
-  - utter_ask_confirmation
-  - utter_ask_destination
-  - utter_ask_entertinement
-  - utter_ask_feedback
-  - utter_ask_feedback1
-  - utter_ask_feedback_withvalues
-  - utter_ask_flight
-  - utter_ask_item
+  - utter_0dAnR1BBQ
+  - utter_5fIVVDros
+  - utter_6dDgzBb0k
+  - utter_853HIbyOy
+  - utter_FSdsNIXUS
+  - utter_FvDUfx3Dq
+  - utter_GS_eLjpjY
+  - utter_IWPoK6IVS
+  - utter_JaVC8Cel6
+  - utter_OCE0hX0JE
+  - utter_Olu_WoxyoG
+  - utter_VTF9FHRLWa
+  - utter_XYdSLARuP
+  - utter_YcMJ0yWmxk
+  - utter_aJ3NtWkVTx
+  - utter_ask_111
+  - utter_ask_1111
+  - utter_ask_333
+  - utter_ask_SADFGHN
+  - utter_ask_adf
+  - utter_ask_appointment
+  - utter_ask_asdf
+  - utter_ask_asdfasdfg
+  - utter_ask_asdfasdg
+  - utter_ask_asdfsdf
+  - utter_ask_asdvfbh
+  - utter_ask_ask1
+  - utter_ask_ask2
+  - utter_ask_button_slot
+  - utter_ask_button_slot1
+  - utter_ask_button_slot2
+  - utter_ask_button_slots
+  - utter_ask_button_slots2
+  - utter_ask_buttons_slot
+  - utter_ask_buttons_slots
+  - utter_ask_like_slot
   - utter_ask_likedislike
-  - utter_ask_location
-  - utter_ask_location2
-  - utter_ask_morestar
-  - utter_ask_movie_form
-  - utter_ask_movie_name
-  - utter_ask_movie_tickets
-  - utter_ask_play_video
-  - utter_ask_star
-  - utter_ask_star1
-  - utter_ask_starrating
-  - utter_ask_theater
-  - utter_byC-IIy8A
+  - utter_ask_likedislike_slot
+  - utter_ask_mac1
+  - utter_ask_mac2
+  - utter_ask_mmm
+  - utter_ask_petient_last_name
+  - utter_ask_petient_name
+  - utter_ask_qqqq
+  - utter_ask_quick_reply_slot
+  - utter_ask_quick_reply_slot2
+  - utter_ask_quick_reply_slots
+  - utter_ask_quickreply_slot
+  - utter_ask_rrrr
+  - utter_ask_sdgsdf
+  - utter_ask_sfgss
+  - utter_ask_slot11
+  - utter_ask_slot_1
+  - utter_ask_slot_2
+  - utter_ask_test_feedback
+  - utter_ask_text1
+  - utter_ask_text2
+  - utter_ask_tttt
+  - utter_ask_tttttt
+  - utter_ask_vvv
+  - utter_ask_wqerh
+  - utter_atpITODPo
   - utter_bye
   - utter_get_started
+  - utter_hHPlX0V-K
   - utter_hi
-  - utter_iGwE3s-t6
-  - utter_kSKrFhpi-
-  - utter_lV5RvhYSC
-  - utter_pmqviy3M8
-  - utter_valid_confirmation
-  - utter_valid_destination
-  - utter_valid_entertinement
-  - utter_valid_feedback
-  - utter_valid_feedback1
-  - utter_valid_flight
-  - utter_valid_item
+  - utter_jdakvA5bn
+  - utter_qKeA3q7xe
+  - utter_qSeoVS4Fb
+  - utter_valid_111
+  - utter_valid_1111
+  - utter_valid_333
+  - utter_valid_asdfsdf
+  - utter_valid_button_slot
+  - utter_valid_button_slot2
+  - utter_valid_button_slots
+  - utter_valid_button_slots2
+  - utter_valid_buttons_slot
+  - utter_valid_buttons_slots
+  - utter_valid_like_slot
   - utter_valid_likedislike
-  - utter_valid_location
-  - utter_valid_location2
-  - utter_valid_morestar
-  - utter_valid_movie_form
-  - utter_valid_play_video
-  - utter_valid_star
-  - utter_valid_star1
-  - utter_valid_starrating
+  - utter_valid_likedislike_slot
+  - utter_valid_mac2
+  - utter_valid_mmm
+  - utter_valid_petient_name
+  - utter_valid_quick_reply_slot
+  - utter_valid_quick_reply_slot2
+  - utter_valid_quick_reply_slots
+  - utter_valid_quickreply_slot
+  - utter_valid_slot11
+  - utter_valid_slot_2
+  - utter_valid_test_feedback
+  - utter_valid_text2
+  - utter_valid_tttt
+  - utter_valid_tttttt
+  - utter_zXFDAp4xR
 entities: []
 forms:
-  feedback_form:
+  buttonz_form:
     collect_in_clai: true
-    description: ''
+    description: buttonz form
     graph_elements:
       edges:
         - condition: null
-          id: e1-feedback
+          id: e1-1111
           source: '1'
-          target: feedback
-          type: condition
-        - condition: null
-          id: efeedback-feedback1
-          source: feedback
-          target: feedback1
+          target: '1111'
           type: condition
       nodes:
         - id: '1'
           position:
-            x: 20
-            'y': 180
+            x: 200
+            'y': 160
           type: start
-        - id: feedback
+        - id: '1111'
           position:
-            x: 40
+            x: 120
             'y': 340
-          slotName: feedback
+          slotName: '1111'
           type: slot
-        - id: feedback1
-          position:
-            x: 20
-            'y': 520
-          slotName: feedback1
-          type: slot
-    groupName: Feedback
-    name: feedback_form
+    groupName: test
+    name: buttonz_form
     slots:
       - filling:
-          - intent: []
-            not_intent: []
+          - intent:
+              - yes_title
+              - no_title
+            not_intent: null
             type: from_text
-        name: feedback
+        name: '1111'
         utter_on_new_valid_slot: false
-      - filling:
-          - intent: []
-            not_intent: []
-            type: from_text
-        name: feedback1
-        utter_on_new_valid_slot: false
-    updatedAt: 1663242887903
-  form2_form:
+    updatedAt: 1663157351587
+  testfeedback_form:
     collect_in_clai: true
-    description: ''
+    description: test feedback form
     graph_elements:
       edges:
         - condition: null
-          id: e1-location
+          id: e1-test_feedback
           source: '1'
-          target: location
-          type: condition
-        - condition: null
-          id: elocation-location2
-          source: location
-          target: location2
+          target: test_feedback
           type: condition
       nodes:
         - id: '1'
@@ -144,677 +152,633 @@ forms:
             x: 200
             'y': 200
           type: start
-        - id: location
+        - id: test_feedback
           position:
-            x: 40
+            x: 120
             'y': 360
-          slotName: location
+          slotName: test_feedback
           type: slot
-        - id: location2
-          position:
-            x: 100
-            'y': 540
-          slotName: location2
-          type: slot
-    groupName: form 1
-    name: form2_form
+    groupName: test feedback
+    name: testfeedback_form
     slots:
       - filling:
           - intent:
-              - location
-            not_intent: null
-            type: from_text
-        name: location
-        utter_on_new_valid_slot: false
-      - filling:
-          - intent: null
-            not_intent: null
-            type: from_text
-        name: location2
-        utter_on_new_valid_slot: false
-    updatedAt: 1663246090097
-  movie_booking_form:
-    collect_in_clai: true
-    description: ''
-    graph_elements:
-      edges:
-        - condition: null
-          id: e1-city
-          source: '1'
-          target: city
-          type: condition
-        - condition: null
-          id: ecity-theater
-          source: city
-          target: theater
-          type: condition
-        - condition: null
-          id: etheater-movie_name
-          source: theater
-          target: movie_name
-          type: condition
-        - condition: null
-          id: emovie_name-movie_tickets
-          source: movie_name
-          target: movie_tickets
-          type: condition
-        - condition: null
-          id: emovie_tickets-confirmation
-          source: movie_tickets
-          target: confirmation
-          type: condition
-      nodes:
-        - id: '1'
-          position:
-            x: 200
-            'y': 200
-          type: start
-        - id: city
-          position:
-            x: 120
-            'y': 320
-          slotName: city
-          type: slot
-        - id: theater
-          position:
-            x: 120
-            'y': 460
-          slotName: theater
-          type: slot
-        - id: movie_name
-          position:
-            x: 120
-            'y': 560
-          slotName: movie_name
-          type: slot
-        - id: movie_tickets
-          position:
-            x: 120
-            'y': 680
-          slotName: movie_tickets
-          type: slot
-        - id: confirmation
-          position:
-            x: 120
-            'y': 800
-          slotName: confirmation
-          type: slot
-    groupName: Movie booking
-    name: movie_booking_form
-    slots:
-      - filling:
-          - intent:
-              - city
+              - like_intent
+              - dislike_intent
             not_intent: []
             type: from_text
-        name: city
+        name: test_feedback
         utter_on_new_valid_slot: false
-      - filling:
-          - intent:
-              - theater
-            not_intent: []
-            type: from_text
-        name: theater
-        utter_on_new_valid_slot: false
-      - filling:
-          - intent:
-              - movie_name
-            not_intent: []
-            type: from_text
-        name: movie_name
-        utter_on_new_valid_slot: false
-      - filling:
-          - intent:
-              - movie_tickets
-            not_intent: []
-            type: from_text
-        name: movie_tickets
-        utter_on_new_valid_slot: false
-      - filling:
-          - intent:
-              - confirmation
-            not_intent: []
-            type: from_text
-        name: confirmation
-        utter_on_new_valid_slot: false
-    updatedAt: 1663242887921
-  starrating_value_form:
-    collect_in_clai: true
-    description: ''
-    graph_elements:
-      edges:
-        - condition: null
-          id: e1-star
-          source: '1'
-          target: star
-          type: condition
-        - condition: null
-          id: estar-star1
-          source: star
-          target: star1
-          type: condition
-      nodes:
-        - id: '1'
-          position:
-            x: 160
-            'y': 100
-          type: start
-        - id: star
-          position:
-            x: 80
-            'y': 260
-          slotName: star
-          type: slot
-        - id: star1
-          position:
-            x: 20
-            'y': 420
-          slotName: star1
-          type: slot
-    groupName: star rating form
-    name: starrating_value_form
-    slots:
-      - filling:
-          - intent:
-              - feedback_1
-              - feedback_2
-              - feedback_3
-            not_intent: null
-            type: from_text
-        name: star
-        utter_on_new_valid_slot: false
-      - filling:
-          - intent: null
-            not_intent: null
-            type: from_text
-        name: star1
-        utter_on_new_valid_slot: false
-    updatedAt: 1663242887929
+    updatedAt: 1663223406118
 intents:
-  - action
-  - animal
-  - booking
-  - button
-  - carousel
-  - commit
-  - dislike
-  - dislike_intent
-  - done
-  - error_next
-  - feedback
-  - feedback_1
-  - feedback_2
-  - feedback_3
+  - buttonzform
+  - final_test
   - get_started
-  - image
-  - jokes
-  - like
-  - like_intent
-  - movie_ticket
-  - next
-  - one
-  - osg
-  - reports
-  - slot
+  - hell
+  - hi
+  - no_title
   - smalltalk.bye
   - smalltalk.greet
-  - star_rating
-  - table
-  - text
-  - three
-  - two
-  - video
+  - test234
+  - test_feedback_form
+  - yesvalue
 responses:
-  utter_02Tr_QO2d:
+  utter_0dAnR1BBQ:
     - language: en
       quick_replies:
-        - payload: /text
-          payload_value: null
-          title: Click me!
-          type: postback
-      text: Testing button!
-  utter_0cThZop7t:
-    - language: en
-      metadata:
-        autoRedirect: false
-        domHighlight:
-          selector: >-
-            body > div.page-wrapper.ppm-overflow-hidden > div.ppm-navbar >
-            div.ppm-navbar-expanded-container.collapsed > nav >
-            ul.list.nav-col.nav-bottom.m-n > li:nth-child(3) > a >
-            span.nav-icon.flex-container.flex-col.center-v.center-h.collapsed
-          style: default
-        forceClose: true
-        forceOpen: false
-        linkTarget: _blank
-        pageEventCallbacks:
-          pageEvents:
-            - errorIntent: /dislike
-              event: click
-              payload: /like
-              selector: >-
-                body > div.page-wrapper.ppm-overflow-hidden > div.ppm-navbar >
-                div.ppm-navbar-expanded-container.collapsed > nav >
-                ul.list.nav-col.nav-bottom.m-n > li:nth-child(3) > a >
-                span.nav-icon.flex-container.flex-col.center-v.center-h.collapsed
-        userInput: show
-      text: This is projects page. Click here to view.
-  utter_33EovqOMBGE:
-    - language: en
-      text: This is a error intent
-  utter_40cf2427H:
-    - language: en
-      video:
-        tag: sita ramam
-        type: video
-        url: 'https://www.youtube.com/embed/9g2tgsYDUnE'
-  utter_7UEqWeGin:
-    - language: en
-      text: Thank you
-  utter_9QbtRqOuW:
-    - language: en
-      metadata:
-        autoRedirect: false
-        forceClose: false
-        forceOpen: false
-        linkTarget: _blank
-        pageChangeCallbacks:
-          errorIntent: /error_next
-          pageChanges:
-            - callbackIntent: /next
-              current: true
-              elementselector: >-
-                div.flex-container.flex-col.center-v.m-l > ppm-button > button >
-                div.ppm-popover-container
-              url: 'https://skydev.pemari.com/pmb/#/projects/common'
-        userInput: show
-      text: Thanks!
-  utter_Fh8EeWF9q:
-    - language: en
-      text: sorry how i can help you!
-  utter_HVZ73HOSk:
-    - language: en
-      metadata:
-        autoRedirect: false
-        forceClose: false
-        forceOpen: false
-        linkTarget: _blank
-        pageChangeCallbacks: null
-        pageEventCallbacks: null
-        userInput: show
-      text: 'hmm, Ok Thanks!!'
-  utter_HoQ0DfhqC:
-    - language: en
-      text: working as intended
-  utter_JtMMvY1nG:
-    - language: en
-      text: How can i help you
-  utter_OIb03ndMA:
-    - elements:
-        - buttons: []
-          default_action: null
-          image_url: >-
-            https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSip2rdHDLbu_KgAJbUZSoHfeuL70XVPAiJhgxq9JhxtA&s
-          subtitle: Love story of rama and sita
-          title: Sitaramam
-        - buttons: []
-          default_action: null
-          image_url: >-
-            https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQOYy_pNi6jn_yTOAn-b4897HNGJLRKtfM4Ag&usqp=CAU
-          subtitle: Unique epic story
-          title: Kartikeya-2
-      language: en
-  utter_QxMVnFtuA:
-    - language: en
-      text: |-
-        Thanks for ordering the snaks,   
-        Have a nice day (:-
-  utter_TytsSbpqBj:
-    - language: en
-      text: bad
-  utter_WS2WChHPB:
-    - language: en
-      text: Thanks
-  utter_XNrrSCP-w:
-    - language: en
-      metadata:
-        autoRedirect: false
-        domHighlight:
-          selector: div.pull-left > ppm-button > button > div.ppm-popover-container
-          style: default
-        forceClose: true
-        forceOpen: false
-        linkTarget: _blank
-        pageChangeCallbacks: null
-        pageEventCallbacks: null
-        userInput: show
-      text: This is a text response2
-  utter_YKLU4y8a7:
-    - language: en
-      text: 'hey {firstname}, you are on clarity {version} and having {language}.'
-  utter_YyDZJxf3Y:
-    - image:
-        alt: ''
-        url: >-
-          data:image/jpeg;base64,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
-      language: en
-  utter_ask_booking:
-    - language: en
-      text: Which movie?
-  utter_ask_city:
-    - language: en
-      text: In which city you want to book?
-  utter_ask_confirmation:
-    - language: en
-      text: Your tickets are confirmed.
-  utter_ask_destination:
-    - language: en
-      text: where you want to fly
-  utter_ask_entertinement:
-    - language: en
-      text: Which movie you want see?
-  utter_ask_feedback:
-    - language: en
-      likedislike:
-        - payload: /like_intent
+        - payload: ''
           payload_value: ''
-          title: like
+          title: ''
           type: postback
-        - payload: /dislike_intent
-          payload_value: ''
-          title: dislike
-          type: postback
-      text: Give me feedback1
-  utter_ask_feedback1:
+      text: ''
+  utter_5fIVVDros:
     - language: en
-      likedislike:
-        - payload: /like_intent
-          payload_value: like
-          title: like
-          type: postback
-        - payload: /dislike_intent
-          payload_value: dislike
-          title: dislike
-          type: postback
-      text: Give me feedback2.
-  utter_ask_feedback_withvalues:
-    - language: en
-      likedislike:
-        - payload: /like_intent
-          payload_value: value like
-          title: like
-          type: postback
-        - payload: /dislike_intent
-          payload_value: value dislike
-          title: dislike
-          type: postback
-      text: Give us feedback
-  utter_ask_flight:
-    - language: en
-      table:
-        data:
-          - - payload_type: text
-              text: '1'
-            - payload_type: text
-              text: Abc
-            - payload_type: text
-              text: ''
-          - - payload_type: text
-              text: '2'
-            - payload_type: text
-              text: Xyz
-            - payload_type: text
-              text: ''
-        headings:
-          - S.No
-          - Name
-          - ''
-        limitrow: '5'
-        stylebody: 'border:1px solid silver;padding:8px;color:black'
-        stylehead: 'border:1px solid silver;padding:8px;background:#000;color:#fff'
-      text: null
-  utter_ask_item:
-    - language: en
-      text: what you want to order
-  utter_ask_likedislike:
-    - language: en
-      likedislike:
-        - payload: /like_intent
-          payload_value: ''
-          title: like
-          type: postback
-        - payload: /dislike_intent
-          payload_value: ''
-          title: dislike
-          type: postback
-      text: Feedback please!!
-  utter_ask_location:
+      text: like intent hited
+  utter_6dDgzBb0k:
     - language: en
       quick_replies:
-        - payload: /location
-          payload_value: ''
-          title: Mumbai
+        - payload: /b111
+          title: button title1
           type: postback
-        - payload: /location
-          payload_value: ''
-          title: Bangalore
+        - payload: /b222
+          payload_value: b22
+          title: button title2
           type: postback
-      text: Where do you want to go ?1
-  utter_ask_location2:
-    - buttons:
-        - payload: /location
-          payload_value: Mumbai
-          title: Mumbai
-          type: postback
-        - payload: /location
-          payload_value: Bangalore
-          title: Bangalore
-          type: postback
-      language: en
-      text: Where do you want to go ?2
-  utter_ask_morestar:
+      text: button message
+  utter_853HIbyOy:
     - language: en
-      starrating:
-        - payload: /feedback_1
-          payload_value: '1'
-          title: star_1
-          type: postback
-        - payload: /feedback_2
-          payload_value: '2'
-          title: star_2
-          type: postback
-        - payload: /feedback_3
-          payload_value: '3'
-          title: star_3
-          type: postback
-      text: What is you ?
-  utter_ask_movie_form:
+      metadata: null
+      text: 'final code 15,09,,,05,11..111222'
+  utter_FSdsNIXUS:
     - language: en
-      text: Which movie you want?
-  utter_ask_movie_name:
-    - language: en
-      text: Movie name please?
-  utter_ask_movie_tickets:
-    - language: en
-      text: How many tickets you want book?
-  utter_ask_play_video:
-    - language: en
-      video:
-        tag: Benten
-        type: video
-        url: 'https://www.youtube.com/embed/VLMo0rthnoo'
-  utter_ask_star:
-    - language: en
-      starrating:
-        - payload: /feedback_1
-          payload_value: ''
-          title: star_1
-          type: postback
-        - payload: /feedback_2
-          payload_value: ''
-          title: star_2
-          type: postback
-        - payload: /feedback_3
-          payload_value: ''
-          title: star_3
-          type: postback
-      text: rate us
-  utter_ask_star1:
-    - language: en
-      starrating:
-        - payload: /feedback_1
-          payload_value: '1'
-          title: star_1
-          type: postback
-        - payload: /feedback_2
-          payload_value: '2'
-          title: star_2
-          type: postback
-        - payload: /feedback_3
-          payload_value: '3'
-          title: star_3
-          type: postback
-      text: rate with value
-  utter_ask_starrating:
-    - language: en
-      starrating:
-        - payload: /fb1
-          payload_value: fb1
-          title: star_1
-          type: postback
-        - payload: /fb2
-          payload_value: fb2
-          title: star_2
-          type: postback
-        - payload: /fb3
-          payload_value: fb3
-          title: star_3
-          type: postback
-        - payload: /fb4
-          payload_value: ''
-          title: star_4
-          type: postback
-        - payload: /fb5
-          payload_value: ''
-          title: star_5
-          type: postback
-      text: How the bot responses are?
-  utter_ask_theater:
-    - language: en
-      text: Please choose the theater name!
-  utter_byC-IIy8A:
-    - language: en
-      metadata:
-        autoRedirect: false
-        domHighlight:
-          selector: div.ppm-workspace.nav-padding > div > p
-          style: default
-        forceClose: true
-        forceOpen: false
-        linkTarget: _blank
-        pageChangeCallbacks: null
-        pageEventCallbacks:
-          pageEvents:
-            - event: click
-              payload: /done
-              selector: div.ppm-workspace.nav-padding > div > p
-        userInput: show
-      text: Highlighting new template
-  utter_bye:
-    - language: en
-      text: Good bye!!
-  utter_get_started:
-    - language: en
-      text: How can we help with Clai!!
-  utter_hi:
-    - language: en
-      text: hello
-  utter_iGwE3s-t6:
-    - language: en
-      text: Hello welcome to clai
-  utter_kSKrFhpi-:
-    - language: en
-      text: You are awesome
-  utter_lV5RvhYSC:
-    - language: en
-      table:
-        data:
-          - - payload_type: text
-              text: vijay
-            - payload_type: text
-              text: '25'
-          - - payload_type: text
-              text: ajay
-            - payload_type: text
-              text: '26'
-        headings:
-          - name
-          - age
-        limitrow: 5
-        stylebody: 'border:1px solid silver;padding:8px;color:black'
-        stylehead: 'border:1px solid silver;padding:8px;background:#000;color:#fff'
-  utter_pmqviy3M8:
+      text: hi
+  utter_FvDUfx3Dq:
     - language: en
       text: ''
-  utter_valid_confirmation:
+  utter_GS_eLjpjY:
     - language: en
-      text: |-
-        form submitted.....
-
-        Thanks for ordering the snaks,   
-        Have a nice day (:-
-  utter_valid_destination:
+      text: hell
+  utter_IWPoK6IVS:
     - language: en
-      text: Destination slot is set
-  utter_valid_entertinement:
+      quick_replies:
+        - payload: ''
+          payload_value: ''
+          title: ''
+          type: postback
+      text: ''
+  utter_JaVC8Cel6:
     - language: en
-      text: entertinement slot is set
-  utter_valid_feedback:
+      metadata: null
+      text: node 12345678903456788765434567111
+  utter_OCE0hX0JE:
+    - image:
+        alt: ''
+        url: ''
+      language: en
+  utter_Olu_WoxyoG:
     - language: en
-      text: feedback slot is set
-  utter_valid_feedback1:
+      text: yesvalue hited
+  utter_VTF9FHRLWa:
     - language: en
-      text: feedback1 set with value
-  utter_valid_flight:
+      text: yes title hited
+  utter_XYdSLARuP:
     - language: en
-      text: |+
-        slight slot is set
-
-  utter_valid_item:
+      quick_replies:
+        - payload: ''
+          payload_value: ''
+          title: ''
+          type: postback
+      text: ''
+  utter_YcMJ0yWmxk:
     - language: en
-      text: item received
+      text: no title hited
+  utter_aJ3NtWkVTx:
+    - language: en
+      quick_replies:
+        - payload: ''
+          payload_value: ''
+          title: ''
+          type: postback
+      text: ''
+  utter_ask_111:
+    - buttons:
+        - payload: /button
+          payload_value: ''
+          title: '11'
+          type: postback
+        - payload: /button2
+          payload_value: val2234567o
+          title: '22'
+          type: postback
+      language: en
+      text: hi
+  utter_ask_1111:
+    - language: en
+      quick_replies:
+        - payload: /yes_title
+          payload_value: yesvalue
+          title: yes title
+          type: postback
+        - payload: /no_title
+          payload_value: ''
+          title: no title
+          type: postback
+      text: yes or no
+  utter_ask_333:
+    - language: en
+      likedislike:
+        - payload: /like_intent
+          payload_value: likevalue
+          title: like
+          type: postback
+        - payload: /dislike_intent
+          payload_value: ''
+          title: dislike
+          type: postback
+      text: like or dislike
+  utter_ask_SADFGHN:
+    - language: en
+      text: ''
+  utter_ask_adf:
+    - language: en
+      text: ''
+  utter_ask_appointment:
+    - language: en
+      text: appointment date?
+  utter_ask_asdf:
+    - language: en
+      text: ''
+  utter_ask_asdfasdfg:
+    - language: en
+      text: awerh
+  utter_ask_asdfasdg:
+    - language: en
+      text: ''
+  utter_ask_asdfsdf:
+    - language: en
+      text: how are you?
+  utter_ask_asdvfbh:
+    - language: en
+      text: ''
+  utter_ask_ask1:
+    - language: en
+      text: ask1?
+  utter_ask_ask2:
+    - language: en
+      text: ask2?
+  utter_ask_button_slot:
+    - buttons:
+        - payload: /b1
+          payload_value: abc
+          title: b1
+          type: postback
+        - payload: /b2
+          payload_value: bbb
+          title: b2
+          type: postback
+      language: en
+      text: button message
+  utter_ask_button_slot1:
+    - buttons:
+        - payload: /button1
+          payload_value: buttonvalue1
+          title: button1title
+          type: postback
+        - payload: /button2
+          payload_value: buttonvalue2
+          title: button2title
+          type: postback
+      language: en
+      text: button message
+  utter_ask_button_slot2:
+    - buttons:
+        - payload: /button3
+          payload_value: buttonval3
+          title: buttontitle12
+          type: postback
+        - payload: /button4
+          title: buttontitle4
+          type: postback
+      language: en
+      text: button message2
+  utter_ask_button_slots:
+    - buttons:
+        - payload: /yes
+          payload_value: yes_value
+          title: 'yes'
+          type: postback
+        - payload: /no
+          payload_value: no_value
+          title: 'no'
+          type: postback
+      language: en
+      text: Are you ok?
+  utter_ask_button_slots2:
+    - buttons:
+        - payload: /yes
+          payload_value: ''
+          title: 'yes'
+          type: postback
+        - payload: /no
+          payload_value: ''
+          title: 'no'
+          type: postback
+      language: en
+      text: Are you feeling good?
+  utter_ask_buttons_slot:
+    - buttons:
+        - payload: /b111
+          payload_value: b111 value
+          title: button title1
+          type: postback
+        - payload: /b222
+          payload_value: null
+          title: button title2
+          type: postback
+      language: en
+      text: button message
+  utter_ask_buttons_slots:
+    - buttons:
+        - payload: /yup
+          payload_value: yup
+          title: yup
+          type: postback
+        - payload: /nope
+          title: nope
+          type: postback
+      language: en
+      text: button message
+  utter_ask_like_slot:
+    - custom:
+        attachment:
+          payload:
+            quick_replies:
+              - payload: like_intent
+                payload_value: like_value1
+                title: like_title1
+              - payload: dislike_intent
+                payload_value: dislike_value
+                title: dislike_title
+          type: likedislike
+      language: en
+  utter_ask_likedislike:
+    - custom:
+        attachment:
+          payload:
+            quick_replies:
+              - payload: like_intent
+                title: like
+                value: like value
+              - payload: dislike_intent
+                title: dislike
+          type: likedislike
+      language: en
+  utter_ask_likedislike_slot:
+    - custom:
+        attachment:
+          payload:
+            quick_replies:
+              - payload: like_intent
+                title: like
+                value: like value
+              - payload: dislike_intent
+                title: dislike
+          type: likedislike
+      language: en
+  utter_ask_mac1:
+    - language: en
+      text: how will you rate us
+  utter_ask_mac2:
+    - language: en
+      text: how will you rate our bot behaviour
+  utter_ask_mmm:
+    - language: en
+      text: give feedback for form
+  utter_ask_petient_last_name:
+    - buttons:
+        - payload: /b1
+          payload_value: asdfg
+          title: button title1
+          type: postback
+        - payload: /b2
+          payload_value: dfgdfg
+          title: button title2
+          type: postback
+      language: en
+      text: button message
+  utter_ask_petient_name:
+    - language: en
+      quick_replies:
+        - payload: /b1
+          payload_value: abc
+          title: title1
+          type: postback
+        - payload: /b2
+          payload_value: asdf
+          title: title2
+          type: postback
+      text: qr message
+  utter_ask_qqqq:
+    - language: en
+      text: ''
+  utter_ask_quick_reply_slot:
+    - language: en
+      quick_replies:
+        - payload: /yup
+          payload_value: yupp
+          title: yup
+          type: postback
+        - payload: /nope
+          payload_value: nope_value
+          title: nope
+          type: postback
+      text: Are you travelling today?
+  utter_ask_quick_reply_slot2:
+    - language: en
+      quick_replies:
+        - payload: /yup
+          payload_value: ''
+          title: yup
+          type: postback
+        - payload: /nope
+          payload_value: ''
+          title: nope
+          type: postback
+      text: Are you willing to relocate?
+  utter_ask_quick_reply_slots:
+    - language: en
+      quick_replies:
+        - payload: /yes
+          payload_value: 'yes'
+          title: 'yes'
+          type: postback
+        - payload: /no
+          title: 'no'
+          type: postback
+      text: qr message
+  utter_ask_quickreply_slot:
+    - language: en
+      quick_replies:
+        - payload: /yup
+          payload_value: yup value
+          title: qr button1
+          type: postback
+        - payload: /nope
+          payload_value: null
+          title: qr button2
+          type: postback
+      text: qr message
+  utter_ask_rrrr:
+    - language: en
+      quick_replies:
+        - payload: /user
+          payload_value: qval
+          title: qr1
+          type: postback
+        - payload: /tesst
+          payload_value: qval2
+          title: qr2
+          type: postback
+      text: qr que
+  utter_ask_sdgsdf:
+    - language: en
+      text: ''
+  utter_ask_sfgss:
+    - language: en
+      text: ''
+  utter_ask_slot11:
+    - language: en
+      quick_replies:
+        - payload: /qr1
+          payload_value: value1
+          title: qr1
+          type: postback
+        - payload: /qr2
+          payload_value: value2
+          title: qr2
+          type: postback
+      text: quick reply
+  utter_ask_slot_1:
+    - language: en
+      quick_replies:
+        - payload: /q1
+          payload_value: value1
+          title: qr title
+          type: postback
+        - payload: /q2
+          payload_value: value2
+          title: qr title2
+          type: postback
+      text: qr message here
+  utter_ask_slot_2:
+    - language: en
+      quick_replies:
+        - payload: /q3
+          payload_value: value3
+          title: qr title 3
+          type: postback
+        - payload: /q4
+          payload_value: value4
+          title: qr title4
+          type: postback
+      text: qr message2
+  utter_ask_test_feedback:
+    - language: en
+      likedislike:
+        - payload: /like_intent
+          payload_value: ''
+          title: like
+          type: postback
+        - payload: /dislike_intent
+          payload_value: ''
+          title: dislike
+          type: postback
+      text: testing feedback
+  utter_ask_text1:
+    - language: en
+      text: how are you?
+  utter_ask_text2:
+    - language: en
+      text: what is ur name?
+  utter_ask_tttt:
+    - buttons:
+        - payload: /yup
+          payload_value: btval
+          title: bt1
+          type: postback
+        - payload: /no
+          payload_value: btval2
+          title: bt2
+          type: postback
+      language: en
+      text: bt que
+  utter_ask_tttttt:
+    - language: en
+      text: how are you?
+  utter_ask_vvv:
+    - language: en
+      text: ''
+  utter_ask_wqerh:
+    - language: en
+      text: ''
+  utter_atpITODPo:
+    - language: en
+      quick_replies:
+        - payload: ''
+          payload_value: ''
+          title: ''
+          type: postback
+      text: ''
+  utter_get_started:
+    - language: en
+      text: Welcome to Clai...
+  utter_hHPlX0V-K:
+    - language: en
+      quick_replies:
+        - payload: ''
+          payload_value: ''
+          title: ''
+          type: postback
+      text: ''
+  utter_hi:
+    - language: en
+      text: 'hi, how can I help?'
+  utter_jdakvA5bn:
+    - language: en
+      text: kjhgfds
+  utter_qKeA3q7xe:
+    - language: en
+      text: wr
+  utter_qSeoVS4Fb:
+    - language: en
+      text: dislike intent hited
+  utter_valid_111:
+    - language: en
+      text: filled
+  utter_valid_1111:
+    - language: en
+      text: form filled.
+  utter_valid_333:
+    - language: en
+      text: likedislike form filled.
+  utter_valid_asdfsdf:
+    - language: en
+      text: filled
+  utter_valid_button_slot:
+    - language: en
+      text: filled
+  utter_valid_button_slot2:
+    - language: en
+      text: filled
+  utter_valid_button_slots:
+    - language: en
+      text: form filled
+  utter_valid_button_slots2:
+    - language: en
+      text: filled
+  utter_valid_buttons_slot:
+    - language: en
+      text: form filled
+  utter_valid_buttons_slots:
+    - language: en
+      text: filled
+  utter_valid_like_slot:
+    - language: en
+      text: form filled.
   utter_valid_likedislike:
     - language: en
-      text: likedislike slots is set
-  utter_valid_location:
+      text: filled
+  utter_valid_likedislike_slot:
     - language: en
-      text: location received
-  utter_valid_location2:
+      text: filled
+  utter_valid_mac2:
     - language: en
-      text: location2  with values is set
-  utter_valid_morestar:
+      text: filled.
+  utter_valid_mmm:
     - language: en
-      text: Star rating is set
-  utter_valid_movie_form:
+      text: form filled
+  utter_valid_petient_name:
     - language: en
-      text: Movie_form slot is set.
-  utter_valid_play_video:
+      text: validated slot
+  utter_valid_quick_reply_slot:
     - language: en
-      text: play_video slot is set
-  utter_valid_star:
+      text: form is filled.
+  utter_valid_quick_reply_slot2:
     - language: en
-      text: rating received
-  utter_valid_star1:
+      text: filled
+  utter_valid_quick_reply_slots:
     - language: en
-      text: rate with value.... star1 is set
-  utter_valid_starrating:
+      text: filled
+  utter_valid_quickreply_slot:
     - language: en
-      text: starrating slot is set
+      text: form filled
+  utter_valid_slot11:
+    - language: en
+      text: filled
+  utter_valid_slot_2:
+    - language: en
+      text: form filled
+  utter_valid_test_feedback:
+    - language: en
+      text: form filled.
+  utter_valid_text2:
+    - language: en
+      text: form filled
+  utter_valid_tttt:
+    - language: en
+      text: filled
+  utter_valid_tttttt:
+    - language: en
+      text: filled
+  utter_zXFDAp4xR:
+    - language: en
+      quick_replies:
+        - payload: ''
+          payload_value: ''
+          title: ''
+          type: postback
+      text: ''
 session_config: {}
 slots:
-  city:
+  '111':
     type: text
-  confirmation:
+  '1111':
+    type: text
+  '333':
+    type: text
+  SADFGHN:
+    type: text
+  adf:
+    type: text
+  appointment:
+    type: text
+  asdf:
+    type: text
+  asdfasdfg:
+    type: text
+  asdfasdg:
+    type: text
+  asdfsdf:
+    type: text
+  asdvfbh:
+    type: text
+  ask1:
+    type: text
+  ask2:
+    type: text
+  button_slot:
+    type: text
+  button_slot1:
+    type: text
+  button_slot2:
+    type: text
+  button_slots:
+    type: text
+  button_slots2:
+    type: text
+  buttons_slot:
+    type: text
+  buttons_slots:
     type: text
   disambiguation_message:
     influence_conversation: false
@@ -822,41 +786,63 @@ slots:
   fallback_language:
     initial_value: en
     type: unfeaturized
-  feedback:
-    type: text
-  feedback1:
-    type: text
   firstname:
+    type: text
+  food_item:
     type: text
   language:
     type: text
-  location:
+  like_slot:
     type: text
-  location2:
+  likedislike:
     type: text
-  movie_name:
+  likedislike_slot:
     type: text
-  movie_tickets:
+  mac1:
     type: text
-  requested_slot:
-    type: categorical
-    values:
-      - feedback
-      - feedback1
-      - location
-      - location2
-      - city
-      - theater
-      - movie_name
-      - movie_tickets
-      - confirmation
-      - star
-      - star1
-  star:
+  mac2:
     type: text
-  star1:
+  mmm:
     type: text
-  theater:
+  petient_last_name:
+    type: text
+  petient_name:
+    type: text
+  qqqq:
+    type: text
+  quick_reply_slot:
+    type: text
+  quick_reply_slot2:
+    type: text
+  quick_reply_slots:
+    type: text
+  quickreply_slot:
+    type: text
+  rrrr:
+    type: text
+  sdgsdf:
+    type: text
+  sfgss:
+    type: text
+  slot11:
+    type: text
+  slot_1:
+    type: text
+  slot_2:
+    type: text
+  test_feedback:
+    type: text
+  text1:
+    type: text
+  text2:
+    type: text
+  tttt:
+    type: text
+  tttttt:
     type: text
   version:
+    type: text
+  vvv:
+    type: text
+  wqerh:
     type: text

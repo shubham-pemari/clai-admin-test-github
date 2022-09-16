@@ -1,20 +1,26 @@
 stories:
-  - story: test (1)
+  - story: button_story
     steps:
-      - intent: one
-        user: one
+      - intent: buttonzform
+        user: buttonz form
+        entities: []
+      - action: buttonz_form
+      - active_loop: buttonz_form
+      - active_loop: null
     metadata:
       group: test
-  - story: test (2)
+  - story: test (4)
     steps:
-      - intent: two
-        user: two
+      - intent: no_title
+        entities: []
+      - action: utter_YcMJ0yWmxk
     metadata:
       group: test
-  - story: test (3)
+  - story: test (5)
     steps:
-      - intent: three
-        user: three
+      - intent: yesvalue
+        entities: []
+      - action: utter_Olu_WoxyoG
     metadata:
       group: test
 rules: []

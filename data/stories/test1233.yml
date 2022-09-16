@@ -1,0 +1,16 @@
+stories:
+  - story: test1233 (1)
+    steps:
+      - intent: hi
+        user: hh
+      - action: utter_FSdsNIXUS
+    metadata:
+      group: test1233
+  - story: test1233 (2)
+    steps:
+      - intent: hell
+        user: hell
+      - action: utter_GS_eLjpjY
+    metadata:
+      group: test1233
+rules: []
