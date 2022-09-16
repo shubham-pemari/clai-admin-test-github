@@ -6,7 +6,8 @@
         "intent": "buttonform",
         "entities": [],
         "metadata": {
-          "language": "en"
+          "language": "en",
+          "canonical": true
         }
       },
       {
@@ -30,7 +31,8 @@
         "intent": "buttonzform",
         "entities": [],
         "metadata": {
-          "language": "en"
+          "language": "en",
+          "canonical": true
         }
       },
       {
@@ -70,7 +72,8 @@
         "intent": "dislike_intent",
         "entities": [],
         "metadata": {
-          "language": "en"
+          "language": "en",
+          "canonical": true
         }
       },
       {
@@ -94,7 +97,8 @@
         "intent": "final_test",
         "entities": [],
         "metadata": {
-          "language": "en"
+          "language": "en",
+          "canonical": true
         }
       },
       {
@@ -102,7 +106,8 @@
         "intent": "he",
         "entities": [],
         "metadata": {
-          "language": "en"
+          "language": "en",
+          "canonical": true
         }
       },
       {
@@ -128,7 +133,8 @@
         "intent": "like_intent",
         "entities": [],
         "metadata": {
-          "language": "en"
+          "language": "en",
+          "canonical": true
         }
       },
       {
@@ -152,7 +158,8 @@
         "intent": "likeform",
         "entities": [],
         "metadata": {
-          "language": "en"
+          "language": "en",
+          "canonical": true
         }
       },
       {
@@ -192,7 +199,8 @@
         "intent": "no_title",
         "entities": [],
         "metadata": {
-          "language": "en"
+          "language": "en",
+          "canonical": true
         }
       },
       {
@@ -200,7 +208,8 @@
         "intent": "test234",
         "entities": [],
         "metadata": {
-          "language": "en"
+          "language": "en",
+          "canonical": true
         }
       },
       {
@@ -208,7 +217,8 @@
         "intent": "test_feedback_form",
         "entities": [],
         "metadata": {
-          "language": "en"
+          "language": "en",
+          "canonical": true
         }
       },
       {
@@ -216,7 +226,8 @@
         "intent": "yes_title",
         "entities": [],
         "metadata": {
-          "language": "en"
+          "language": "en",
+          "canonical": true
         }
       },
       {
@@ -248,7 +259,8 @@
         "intent": "yesvalue",
         "entities": [],
         "metadata": {
-          "language": "en"
+          "language": "en",
+          "canonical": true
         }
       }
     ],

@@ -135,7 +135,7 @@ forms:
             type: from_text
         name: '1111'
         utter_on_new_valid_slot: false
-    updatedAt: 1663157351587
+    updatedAt: 1663313848689
   testfeedback_form:
     collect_in_clai: true
     description: test feedback form
@@ -169,7 +169,7 @@ forms:
             type: from_text
         name: test_feedback
         utter_on_new_valid_slot: false
-    updatedAt: 1663223406118
+    updatedAt: 1663313848694
 intents:
   - buttonzform
   - final_test
@@ -207,7 +207,6 @@ responses:
       text: button message
   utter_853HIbyOy:
     - language: en
-      metadata: null
       text: 'final code 15,09,,,05,11..111222'
   utter_FSdsNIXUS:
     - language: en
@@ -217,8 +216,7 @@ responses:
       text: ''
   utter_GS_eLjpjY:
     - language: en
-      metadata: null
-      text: test with https on local1
+      text: hell
   utter_IWPoK6IVS:
     - language: en
       quick_replies:
@@ -229,7 +227,6 @@ responses:
       text: ''
   utter_JaVC8Cel6:
     - language: en
-      metadata: null
       text: node 12345678903456788765434567111
   utter_OCE0hX0JE:
     - image:
